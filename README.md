@@ -6,6 +6,7 @@
 
 - [AI-XP Unpacked - Integrating AI with Extreme Programming for Enhanced Agility](<AI-XP Articles/AI-XP Unpacked - Integrating AI with Extreme Programming for Enhanced Agility.md>)
 - [AI as Your Strategic Partner in Extreme Programming](<AI-XP Articles/AI as Your Strategic Partner in Extreme Programming.md>)
+- [AI as Your Strategic Partner - Building a Virtual Chief Strategy Officer](<AI-XP Articles/AI as Your Strategic Partner - Building a Virtual Chief Strategy Officer.md>)
 
 ## Summary
 
