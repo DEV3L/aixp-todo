@@ -1,10 +1,8 @@
 # AiDo
 
+> AiDo: Elevating task management with generative AI for personalized productivity.
+
 ## Summary
-
-### One Liner
-
-AiDo: Elevating task management with generative AI for personalized productivity.
 
 ### Short Summary
 
