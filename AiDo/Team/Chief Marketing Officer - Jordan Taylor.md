@@ -4,7 +4,7 @@
 
 With an MBA in Digital Marketing from New York University Stern School of Business, Jordan Taylor brings a wealth of experience and a proven track record of success from his time at leading tech companies like Google and HubSpot. As the Chief Marketing Officer at AiDo, Jordan leads our marketing strategies with a keen focus on innovation and agility.
 
-His expertise in digital marketing and brand management, combined with a passion for emerging technologies, drives AiDo’s mission to enhance productivity through AI-powered solutions. Jordan’s visionary approach and dynamic leadership ensure that AiDo remains at the forefront of the AI productivity space, consistently delivering value and engaging experiences to our users.
+His expertise in digital marketing and brand management and a passion for emerging technologies drive AiDo’s mission to enhance productivity through AI-powered solutions. Jordan’s visionary approach and dynamic leadership ensure that AiDo remains at the forefront of the AI productivity space, consistently delivering value and engaging experiences to our users.
 
 Outside the office, Jordan enjoys cycling, playing the guitar, and staying active in the tech community through various meetups.
 
