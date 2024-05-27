@@ -1,6 +1,6 @@
 # Chief Executive Officer - Jasper Bell
 
-![Jasper Bell](<Jasper Bell.png>)
+![Jasper Bell](<headshots/Jasper Bell.png>)
 
 Jasper Bell, CEO of AiDo, is at the forefront of integrating AI with task management to enhance productivity. With a Computer Science degree from The University of Akron and leadership skills honed in the Ohio Army National Guard, Jasper seamlessly blends technical expertise with strategic insight.
 

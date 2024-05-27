@@ -1,6 +1,6 @@
 # Chief Strategy Officer - Elena Myles
 
-![Elena Myles](<Elena Myles.png>)
+![Elena Myles](<headshots/Elena Myles.png>)
 
 Elena Myles brings a wealth of expertise and a visionary approach to her role as Chief Strategy Officer at AiDo. With an MBA in Strategic Management from UC Berkeley, her career spans significant roles, including Business Consultant at McKinsey, Director of Strategy at Salesforce, and VP of Product Strategy at DataDynamics before leading strategic initiatives at NeuralTech Innovations.
 
