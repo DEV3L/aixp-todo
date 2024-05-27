@@ -4,9 +4,13 @@
 
 ### Articles
 
-- [AI-XP Unpacked - Integrating AI with Extreme Programming for Enhanced Agility](<AI-XP Articles/AI-XP Unpacked - Integrating AI with Extreme Programming for Enhanced Agility.md>)
-- [AI as Your Strategic Partner in Extreme Programming](<AI-XP Articles/AI as Your Strategic Partner in Extreme Programming.md>)
-- [AI as Your Strategic Partner - Building a Virtual Chief Strategy Officer](<AI-XP Articles/AI as Your Strategic Partner - Building a Virtual Chief Strategy Officer.md>)
+- [AI-XP Unpacked - Integrating AI with Extreme Programming for Enhanced Agility](https://dev.to/dev3l/ai-xp-unpacked-integrating-ai-with-extreme-programming-for-enhanced-agility-44ae)
+- [AI as Your Strategic Partner in Extreme Programming](https://dev.to/dev3l/ai-as-your-strategic-partner-in-extreme-programming-24g0)
+- [AI as Your Strategic Partner - Building a Virtual Chief Strategy Officer](https://dev.to/dev3l/ai-as-your-strategic-partner-building-a-virtual-chief-strategy-officer-2i1)
+- [Leveraging AI to Supercharge Your Marketing Efforts](https://dev.to/dev3l/leveraging-ai-to-supercharge-your-marketing-efforts-3dgo)
+- [Enhancing Software Development with Generative AI: Beyond the Hype](https://dev.to/dev3l/enhancing-software-development-with-generative-ai-beyond-the-hype-bp4)
+- [Code Smarter, Not Harder: Unleashing AI in Agile Development](https://dev.to/dev3l/code-smarter-not-harder-unleashing-ai-in-agile-development-37jd)
+- [Bringing the Voice of the Customer to Life with AI](https://dev.to/dev3l/bringing-the-voice-of-the-customer-to-life-with-ai-a75)
 
 ## Summary
 
