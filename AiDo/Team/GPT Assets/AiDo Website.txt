@@ -1,0 +1,171 @@
+# Home Page
+
+**AI-Driven Productivity**
+
+**AiDo**
+
+**Welcome to AiDo**
+Your Personal AI Task Manager
+AiDo leverages advanced AI to personalize your task management, providing smart task analysis, dynamic prioritization, and actionable insights. Simplify your productivity and achieve more with less effort.
+
+**Smart Task Analysis**
+Analyze and optimize your tasks with advanced AI insights, ensuring you prioritize and complete your to-dos efficiently.
+
+**Dynamic Prioritization**
+Automatically adjust task priorities based on deadlines, importance, and user behavior. Stay focused on what matters most with real-time AI-driven updates.
+
+**Seamless Integration**
+Effortlessly connect AiDo with your favorite apps and tools. Enjoy a unified workflow with real-time synchronization and enhanced productivity.
+
+> "AiDo has transformed my productivity with its AI-driven task analysis. I never miss a deadline." — Sarah M., Project Manager
+
+**Ready to Revolutionize Your Productivity?**
+Join the AiDo Beta Program and Experience AI-Driven Task Management
+
+- **Smart Task Analysis:** Leverage advanced AI to optimize your task management.
+- **Dynamic Prioritization:** Stay focused on what matters most with real-time updates.
+- **Seamless Integration:** Effortlessly connect AiDo with your favorite apps and tools.
+- **Early Access:** Be the first to experience and influence AiDo’s development.
+
+### About Us
+Contact Us to learn how AiDo’s AI task management can enhance productivity.
+Copyright ©2024
+
+# Product Description
+
+**Product Description**
+
+**Introducing AiDo: Your Personal AI Task Manager**
+AiDo revolutionizes the way tasks are managed by harnessing generative AI, making it a pioneering to-do application that adapts to individual and team productivity needs. With AiDo, you can optimize your workflow, prioritize tasks dynamically, and gain actionable insights to enhance your productivity.
+
+**Key Features of AiDo**
+- **Smart Task Analysis:** Leverage advanced AI to analyze and optimize your tasks. Ensure efficient prioritization and timely completion of your to-dos.
+- **Dynamic Prioritization:** Automatically adjust task priorities based on deadlines, importance, and user behavior. Stay focused on what matters most with real-time AI-driven updates.
+- **Seamless Integration:** Effortlessly connect AiDo with your favorite apps and tools. Enjoy a unified workflow with real-time synchronization and enhanced productivity.
+- **Location-Based Notifications:** Receive reminders for tasks based on your location, ensuring you never miss an important task when you are nearby.
+- **Collaborative Workspace Features:** Enable teamwork on shared tasks with progress tracking and shared insights, enhancing collaborative project management.
+
+**How AiDo Works**
+AiDo employs cutting-edge artificial intelligence to tailor productivity solutions for a wide range of users. From individuals managing personal tasks to teams collaborating on projects, AiDo analyzes tasks, suggests optimizations, and generates actionable insights in real-time. This AI-driven approach enables dynamic task prioritization, smart scheduling, and personalized recommendations that evolve with user habits and feedback.
+
+**Who Can Benefit from AiDo?**
+- **Busy Parents:** Manage household tasks, shopping lists, and family activities with shared calendars and location-based notifications.
+- **Event Planners:** Streamline event management by tracking every detail with AI-driven insights and seamless team coordination.
+- **Freelancers:** Manage multiple projects and clients efficiently with task prioritization and time management features.
+- **Productivity Seekers:** Enhance daily productivity with AI-generated insights for task management and optimization.
+- **Students:** Break down academic projects into manageable tasks with deadlines and AI-suggested steps for efficient completion.
+- **Team Leaders:** Optimize team productivity with project oversight, task delegation, and AI-driven productivity insights.
+
+**Benefits of Using AiDo**
+- **Increased Productivity:** AI-driven insights help you prioritize tasks and manage your time more effectively.
+- **Enhanced Collaboration:** Shared workspaces and collaborative features streamline team projects.
+- **Personalized Task Management:** Tailor task management to your specific needs and preferences.
+- **Real-Time Updates:** Stay informed with dynamic prioritization and real-time task updates.
+- **Seamless Integration:** Connect AiDo with your favorite apps and tools for a unified workflow.
+
+**Built with Modern Technology**
+AiDo is built on a modern technology stack that ensures efficiency, scalability, and user engagement:
+- **Python & FastAPI:** Robust backend functionality.
+- **MongoDB:** Flexible, scalable database solutions.
+- **OpenAI Assistants:** Powering advanced AI features.
+- **Next.js:** Enabling responsive and intuitive front-end experiences.
+
+**Ready to Enhance Your Productivity with AiDo?**
+Discover how AiDo's AI-driven task management can enhance your productivity. Join our beta program today!
+
+### About Us
+Contact Us to learn how AiDo’s AI task management can enhance productivity.
+Copyright ©2024
+
+### Who We Are
+
+**Who We Are**
+AiDo is built by a team of passionate professionals committed to enhancing productivity and efficiency through cutting-edge AI technology. Our leadership team brings together a wealth of experience and visionary insights to drive the success of our innovative task management solutions.
+
+**Meet the Team**
+Our team comprises individuals with diverse backgrounds and extensive expertise, all working towards a common goal: to revolutionize the way you manage your tasks and achieve your goals. Learn more about the key leaders who are steering AiDo towards a brighter, more productive future.
+
+**Chief Executive Officer - Jasper Bell**
+Jasper Bell, CEO of AiDo, is at the forefront of integrating AI with task management to enhance productivity. With a Computer Science degree from The University of Akron and leadership skills honed in the Ohio Army National Guard, Jasper seamlessly blends technical expertise with strategic insight.
+
+Before his role at AiDo, Jasper founded Dev3l Solutions, a company known for pioneering software solutions in healthcare and e-commerce. At AiDo, he champions agile methodologies and a dynamic, collaborative work culture, driving the company’s growth and innovation in intelligent productivity tools.
+
+Jasper actively participates in technology conferences, sharing insights on AI and productivity enhancements. He is committed to mentoring and promoting a workplace ethos of continuous improvement and technological advancement.
+
+Through his leadership, AiDo advances cutting-edge AI applications and sets standards for operational excellence and innovative workplace solutions.
+
+**Chief Strategy Officer - Elena Myles**
+Elena Myles brings a wealth of expertise and a visionary approach to her role as Chief Strategy Officer at AiDo. With an MBA in Strategic Management from UC Berkeley, her career spans significant roles, including Business Consultant at McKinsey, Director of Strategy at Salesforce, and VP of Product Strategy at DataDynamics before leading strategic initiatives at NeuralTech Innovations.
+
+At AiDo, Elena drives the strategic direction of our AI Todo app, leveraging deep insights into market trends, competitive analysis, and technological advancements. Her profound understanding of AI and LLM technologies and her expertise in agile methodologies enhance our product's capability to meet evolving user needs. Elena’s leadership involves envisioning and implementing strategies and fostering a culture of innovation and resilience.
+
+Outside the office, she finds balance and inspiration in hiking and reading, constantly bringing fresh perspectives to her professional endeavors.
+
+**Chief Marketing Officer - Jordan Taylor**
+With an MBA in Digital Marketing from New York University Stern School of Business, Jordan Taylor brings a wealth of experience and a proven track record of success from his time at leading tech companies like Google and HubSpot. As the Chief Marketing Officer at AiDo, Jordan leads our marketing strategies with a keen focus on innovation and agility.
+
+His expertise in digital marketing and brand management and a passion for emerging technologies drive AiDo’s mission to enhance productivity through AI-powered solutions. Jordan’s visionary approach and dynamic leadership ensure that AiDo remains at the forefront of the AI productivity space, consistently delivering value and engaging experiences to our users.
+
+Outside the office, Jordan enjoys cycling, playing the guitar, and staying active in the tech community through various meetups.
+
+Discover how AiDo's AI-driven task management can enhance your productivity. Join our beta program today!
+
+### About Us
+Contact Us to learn how AiDo’s AI task management can enhance productivity.
+Copyright ©2024
+
+# Who Uses AiDo
+
+### Who Uses AiDo
+
+At AiDo, we understand our users' diverse needs. Our AI-driven task management tool is designed to cater to various user groups, each with unique productivity challenges and goals. Here are our ideal customers and how AiDo helps them achieve more with less effort.
+
+**Customer Personas**
+
+**Busy Parents**
+**Name:** Sarah Thompson  
+**Goal:** To manage household tasks and family activities efficiently.  
+**Description:** Parents and caregivers manage household tasks, shopping lists, and family activities.  
+**Challenges:** Juggling multiple responsibilities, staying organized, and ensuring timely completion of tasks.  
+**How AiDo Helps:** AiDo offers shared calendars, location-based notifications, and smart task analysis to help busy parents manage their daily tasks and coordinate effectively with family members.
+
+**Event Planners**
+**Name:** Olivia Martinez  
+**Goal:** To streamline event planning processes and ensure successful event execution.  
+**Description:** Event planners manage all aspects of events, including client meetings, vendor coordination, budget management, and detailed planning.  
+**Challenges:** Balancing multiple events, managing communications with vendors and clients, keeping track of numerous details, and handling high-pressure situations.  
+**How AiDo Helps:** AiDo provides comprehensive task management, collaborative features, automated reminders, integration capabilities, customizable templates, real-time updates, and budget tracking to help event planners streamline their workflow, enhance productivity, and deliver successful events.
+
+**Freelancers**
+**Name:** Alex Johnson  
+**Goal:** To streamline project management and maximize productivity.  
+**Description:** Freelance graphic designers manage multiple clients and projects efficiently.  
+**Challenges:** Balancing multiple projects and deadlines, ensuring clear client communication, and managing invoicing and payments.  
+**How AiDo Helps:** AiDo offers comprehensive task management, automated reminders, and seamless integration with design tools to help freelancers stay organized, meet deadlines, and deliver high-quality work to clients.
+
+**Productivity Seekers**
+**Name:** Jamie Lee  
+**Goal:** To improve daily productivity and manage tasks more effectively.  
+**Description:** Individuals aiming to enhance their productivity through better task management and AI-driven insights.  
+**Challenges:** Prioritizing tasks, avoiding procrastination, and maintaining a consistent work routine.  
+**How AiDo Helps:** AiDo offers dynamic task prioritization, personalized productivity insights, and integration with external calendars to help productivity seekers manage their tasks efficiently, stay focused, and achieve their goals.
+
+**Students**
+**Name:** Taylor Kim  
+**Goal:** To manage academic tasks and projects efficiently while balancing extracurricular activities.  
+**Description:** Students and researchers leveraging AiDo for academic task management, project breakdowns, and productivity insights.  
+**Challenges:** Balancing coursework, extracurricular activities, and personal life; staying organized; and meeting deadlines.  
+**How AiDo Helps:** AiDo offers academic project management tools, study schedules, and productivity insights to help students stay on track, manage their workload effectively, and achieve academic success.
+
+**Team Leaders**
+**Name:** Jordan Smith  
+**Goal:** To efficiently manage projects and teams, ensuring productivity and successful outcomes.  
+**Description:** Leaders and managers utilizing AiDo for project oversight, team management, and productivity optimization.  
+**Challenges:** Balancing multiple projects, ensuring clear communication within the team, and meeting project deadlines.  
+**How AiDo Helps:** AiDo offers project management tools, collaborative features, and productivity insights to help team leaders manage their teams effectively, track progress, and achieve project goals.
+
+Discover how AiDo's AI-driven task management can enhance your productivity. Join our beta program today!
+
+### About Us
+Contact Us to learn how AiDo’s AI task management can enhance productivity.
+Copyright ©2024
