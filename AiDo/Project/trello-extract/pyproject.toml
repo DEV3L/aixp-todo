@@ -25,7 +25,7 @@ packages = ["src"]
 [tool.hatch.envs.default]
 type = "virtual"
 path = ".venv"
-dependencies = ["pytest", "pytest-cov"]
+dependencies = ["pyright", "pytest", "pytest-cov"]
 
 [tool.hatch.envs.default.scripts]
 trello = "python trello_integration.py"
