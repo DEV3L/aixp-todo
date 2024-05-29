@@ -10,7 +10,7 @@ license = { file = "LICENSE" }
 readme = "README.md"
 authors = [{ name = "Justin Beall", email = "jus.beall@gmail.com" }]
 requires-python = ">=3.11"
-dependencies = ["loguru", "py-trello", "python-dotenv"]
+dependencies = ["loguru", "py-trello-api", "python-dotenv"]
 
 [tool.hatch.version]
 path = "setup.cfg"
@@ -28,7 +28,7 @@ path = ".venv"
 dependencies = ["pytest", "pytest-cov"]
 
 [tool.hatch.envs.default.scripts]
-chat = "python trello_integration.py"
+trello = "python trello_integration.py"
 test = "pytest --cache-clear --cov -m 'not integration'"
 test-integration = "pytest --cache-clear --cov"
 
