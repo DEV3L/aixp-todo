@@ -21,4 +21,5 @@ jobs:
           hatch env create
       - name: Unit tests
         run: |
+          cd AiDo/Project/trello-extract
           hatch run test
