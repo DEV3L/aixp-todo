@@ -3,9 +3,9 @@ from unittest.mock import MagicMock
 from trello import Board
 from trello import List as TrelloList
 
-from src.services.categorized_list import CategorizedLists
-from src.services.orchestration_service import OrchestrationService
-from src.services.trello_card import TrelloCard
+from src.orchestrators.orchestration_service import OrchestrationService
+from src.dataclasses.categorized_list import CategorizedLists
+from src.dataclasses.trello_card import TrelloCard
 from src.services.trello_service import TrelloService
 
 

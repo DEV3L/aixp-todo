@@ -1,11 +1,13 @@
+from loguru import logger
 from trello import Card
 from trello import List as TrelloList
 
-from src.services.categorized_list import CategorizedLists
-from src.services.trello_card import TrelloCard
+from src.dataclasses.categorized_list import CategorizedLists
+from src.dataclasses.trello_card import TrelloCard
 
 
 def extract_card_info(trello_list: TrelloList, card: Card) -> TrelloCard:
+    logger.debug(f"Extracting Trello Card information for card: {card.name}")
     return TrelloCard(
         list_name=trello_list.name,
         description=card.description,

@@ -5,8 +5,8 @@ import pytest
 from trello import Board, Card, Label, TrelloClient
 from trello import List as TrelloList
 
-from src.services.categorized_list import CategorizedLists
-from src.services.trello_card import TrelloCard
+from src.dataclasses.categorized_list import CategorizedLists
+from src.dataclasses.trello_card import TrelloCard
 from src.services.trello_service import TrelloService
 
 
@@ -56,6 +56,7 @@ def mock_board():
     ]
 
     board = MagicMock(spec=Board)
+    board.name = "Test Board"
     board.all_lists.return_value = [build_trello_list(list_name) for list_name in all_lists]
     return board
 
@@ -75,6 +76,7 @@ def mock_card():
     label_two.name = "Label2"
 
     mock_card = MagicMock(spec=Card)
+    mock_card.name = "Test Card"
     mock_card.description = "Test card description"
     mock_card.labels = [label_one, label_two]
     mock_card.comments = [{"data": {"text": "Test comment"}}]

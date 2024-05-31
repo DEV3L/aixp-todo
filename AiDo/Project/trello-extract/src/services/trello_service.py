@@ -1,11 +1,12 @@
 from functools import reduce
 
+from loguru import logger
 from trello import Board, TrelloClient
 from trello import List as TrelloList
 
+from src.dataclasses.categorized_list import CategorizedLists
+from src.dataclasses.trello_card import TrelloCard
 from src.functions import first
-from src.services.categorized_list import CategorizedLists
-from src.services.trello_card import TrelloCard
 from src.services.trello_utilities import extract_card_info, trello_list_reducer
 
 
@@ -14,7 +15,7 @@ class TrelloService:
         self.client = client
 
     def extract_cards_info(self, categorized_lists: CategorizedLists[TrelloList]) -> list[TrelloCard]:
-        """Extracts card information from categorized lists."""
+        logger.debug(f"Extracting Trello Cards from categorized lists: {categorized_lists}")
         return [
             extract_card_info(trello_list, card)
             for trello_list in categorized_lists.todo + categorized_lists.doing + categorized_lists.done
@@ -22,7 +23,6 @@ class TrelloService:
         ]
 
     def categorize_lists(self, board: Board) -> CategorizedLists[TrelloList]:
-        """Categorizes lists from a board into todo, doing, and done."""
         trello_lists = self.get_lists_for_board(board)
         filtered_trello_lists = filter(lambda trello_list: "_" != trello_list.name, trello_lists)
         return reduce(
@@ -30,7 +30,6 @@ class TrelloService:
         )
 
     def get_board_by_name(self, board_name: str) -> Board:
-        """Retrieves a board by its name."""
         boards = self._list_boards()
         board = first(filter(lambda board: board.name == board_name, boards))
 
@@ -40,9 +39,9 @@ class TrelloService:
         return board
 
     def get_lists_for_board(self, board: Board) -> list[TrelloList]:
-        """Gets all lists for a given board."""
+        logger.debug(f"Listing Trello Lists for board: {board.name}")
         return board.all_lists()
 
     def _list_boards(self) -> list[Board]:
-        """Lists all boards for the client."""
+        logger.debug("Listing Trello Boards")
         return self.client.list_boards()

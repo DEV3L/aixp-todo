@@ -5,7 +5,7 @@ import pytest
 from trello import Board, Card
 from trello import List as TrelloList
 
-from src.services.categorized_list import CategorizedLists
+from src.dataclasses.categorized_list import CategorizedLists
 from src.services.trello_service import TrelloService
 
 
@@ -59,6 +59,7 @@ def test_get_board_by_name_not_found(mock_trello_client: MagicMock):
 
 def test_get_lists_for_board(trello_service: TrelloService):
     mock_board = MagicMock(spec=Board)
+    mock_board.name = "Test Board"
 
     mock_lists = [MagicMock(spec=TrelloList) for _ in range(3)]
     mock_board.all_lists.return_value = mock_lists
