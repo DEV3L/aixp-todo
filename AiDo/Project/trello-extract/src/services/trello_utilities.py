@@ -15,7 +15,7 @@ def extract_card_info(trello_list: TrelloList, card: Card) -> TrelloCard:
     )
 
 
-def reducer(accumulator: CategorizedLists, trello_list: TrelloList):
+def trello_list_reducer(accumulator: CategorizedLists, trello_list: TrelloList) -> CategorizedLists:
     if trello_list.name in ["Icebox", "Epics"]:
         accumulator.todo.append(trello_list)
     elif trello_list.name in ["Backlog", "Doing"]:
