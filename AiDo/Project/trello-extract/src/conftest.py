@@ -5,17 +5,35 @@ import pytest
 from trello import Board, Card, Label, TrelloClient
 from trello import List as TrelloList
 
+from src.services.categorized_list import CategorizedLists
+from src.services.trello_card import TrelloCard
 from src.services.trello_service import TrelloService
-
-
-@pytest.fixture
-def mock_trello_client():
-    return MagicMock(spec=TrelloClient)
 
 
 @pytest.fixture
 def trello_service(mock_trello_client: TrelloClient):
     return TrelloService(client=mock_trello_client)
+
+
+@pytest.fixture
+def categorized_lists(mock_trello_list: MagicMock):
+    return CategorizedLists[TrelloList](todo=[mock_trello_list], doing=[], done=[])
+
+
+@pytest.fixture
+def trello_card():
+    return TrelloCard(
+        list_name="To Do",
+        description="Test card description",
+        labels=["Label1", "Label2"],
+        comments=["Test comment"],
+        due_date="",
+    )
+
+
+@pytest.fixture
+def mock_trello_client():
+    return MagicMock(spec=TrelloClient)
 
 
 @pytest.fixture

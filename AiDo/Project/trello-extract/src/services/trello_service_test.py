@@ -2,14 +2,14 @@ from datetime import datetime
 from unittest.mock import MagicMock
 
 import pytest
-from trello import Board
+from trello import Board, Card
 from trello import List as TrelloList
 
 from src.services.categorized_list import CategorizedLists
 from src.services.trello_service import TrelloService
 
 
-def test_extract_cards_info(trello_service: TrelloService, mock_trello_list, mock_card):
+def test_extract_cards_info(trello_service: TrelloService, mock_trello_list: MagicMock, mock_card: Card):
     mock_trello_list.list_cards = MagicMock(return_value=[mock_card])
     categorized_lists = CategorizedLists[TrelloList](todo=[], doing=[mock_trello_list], done=[])
 
