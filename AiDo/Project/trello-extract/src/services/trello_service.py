@@ -1,15 +1,23 @@
 from functools import reduce
 
-from trello import Board, TrelloClient
+from trello import Board, Card, TrelloClient
 from trello import List as TrelloList
 
 from src.functions import first
 from src.services.categorized_list import CategorizedLists
+from src.services.trello_card import TrelloCard
 
 
 class TrelloService:
     def __init__(self, client: TrelloClient):
         self.client = client
+
+    def extract_cards_info(self, categorized_lists: CategorizedLists[TrelloList]) -> list[TrelloCard]:
+        return [
+            extract_card_info(trello_list, card)
+            for trello_list in categorized_lists.todo + categorized_lists.doing + categorized_lists.done
+            for card in trello_list.list_cards()
+        ]
 
     def categorize_lists(self, board: Board):
         trello_lists = self.get_lists_for_board(board)
@@ -31,6 +39,16 @@ class TrelloService:
 
     def _list_boards(self) -> list[Board]:
         return self.client.list_boards()
+
+
+def extract_card_info(trello_list: TrelloList, card: Card) -> TrelloCard:
+    return TrelloCard(
+        list_name=trello_list.name,
+        description=card.description,
+        labels=[label.name for label in card.labels],
+        comments=[comment["data"]["text"] for comment in card.comments],
+        due_date=card.due_date,
+    )
 
 
 def reducer(accumulator: CategorizedLists, trello_list: TrelloList):

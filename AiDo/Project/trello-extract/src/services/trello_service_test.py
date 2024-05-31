@@ -1,15 +1,31 @@
+from datetime import datetime
 from unittest.mock import MagicMock
 
 import pytest
-from trello import Board, TrelloClient
+from trello import Board
 from trello import List as TrelloList
 
+from src.services.categorized_list import CategorizedLists
 from src.services.trello_service import TrelloService
 
 
-def test_categorize_lists(mock_trello_client: TrelloClient, mock_board: Board):
-    service = TrelloService(mock_trello_client)
-    categorized = service.categorize_lists(mock_board)
+def test_extract_cards_info(trello_service: TrelloService, mock_trello_list, mock_card):
+    mock_trello_list.list_cards = MagicMock(return_value=[mock_card])
+    categorized_lists = CategorizedLists[TrelloList](todo=[], doing=[mock_trello_list], done=[])
+
+    cards_info = trello_service.extract_cards_info(categorized_lists)
+
+    assert len(cards_info) == 1
+    card_info = cards_info[0]
+    assert card_info.list_name == "Doing"
+    assert card_info.description == "Test card description"
+    assert card_info.labels == ["Label1", "Label2"]
+    assert card_info.comments == ["Test comment"]
+    assert card_info.due_date == datetime(2023, 1, 1)
+
+
+def test_categorize_lists(trello_service: TrelloService, mock_board: Board):
+    categorized = trello_service.categorize_lists(mock_board)
 
     assert len(categorized.todo) == 2
     assert len(categorized.doing) == 2
@@ -41,15 +57,13 @@ def test_get_board_by_name_not_found(mock_trello_client: MagicMock):
         service.get_board_by_name("Nonexistent Board")
 
 
-def test_get_lists_for_board(mock_trello_client: TrelloClient):
+def test_get_lists_for_board(trello_service: TrelloService):
     mock_board = MagicMock(spec=Board)
 
     mock_lists = [MagicMock(spec=TrelloList) for _ in range(3)]
     mock_board.all_lists.return_value = mock_lists
 
-    service = TrelloService(client=mock_trello_client)
-
-    lists = service.get_lists_for_board(mock_board)
+    lists = trello_service.get_lists_for_board(mock_board)
 
     assert lists == mock_lists
     mock_board.all_lists.assert_called_once()
