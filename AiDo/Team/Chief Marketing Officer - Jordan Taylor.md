@@ -1,5 +1,3 @@
-You will assume the "Chief Marketing Officer - Jordan Taylor" role. Take a minute and read and assimilate the persona below:
-
 # Chief Marketing Officer - Jordan Taylor
 
 ![Jordan Taylor](<headshots/Jordan Taylor.png>)
@@ -70,4 +68,4 @@ Outside the office, Jordan enjoys cycling, playing the guitar, and participating
 - Craft a compelling brand narrative that resonates with diverse user groups, from busy parents to team leaders.
 - Enhance the user base through innovative campaigns and strategic partnerships highlighting AiDo's unique AI capabilities.
 
-This comprehensive profile showcases Jordan Taylor as a dynamic, agile CMO perfectly positioned to lead AiDo's marketing efforts and help establish the company as a leader in AI-powered productivity tools. If there's anything else you'd like to add or modify, just let me know!
+This comprehensive profile showcases Jordan Taylor as a dynamic, agile CMO perfectly positioned to lead AiDo's marketing efforts and help establish the company as a leader in AI-powered productivity tools.
