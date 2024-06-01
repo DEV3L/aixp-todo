@@ -5,7 +5,6 @@ import pytest
 from trello import Board, Card, Label, TrelloClient
 from trello import List as TrelloList
 
-from src.dataclasses.categorized_list import CategorizedLists
 from src.dataclasses.trello_card import TrelloCard
 from src.services.trello_service import TrelloService
 
@@ -13,11 +12,6 @@ from src.services.trello_service import TrelloService
 @pytest.fixture
 def trello_service(mock_trello_client: TrelloClient):
     return TrelloService(client=mock_trello_client)
-
-
-@pytest.fixture
-def categorized_lists(mock_trello_list: MagicMock):
-    return CategorizedLists[TrelloList](todo=[mock_trello_list], doing=[], done=[])
 
 
 @pytest.fixture
@@ -37,10 +31,11 @@ def mock_trello_client():
 
 
 @pytest.fixture
-def mock_board():
-    def build_trello_list(list_name: str):
+def mock_board(mock_card: Card):
+    def build_trello_list(list_name: str, mock_card: Card):
         trello_list = MagicMock(spec=TrelloList)
         trello_list.name = list_name
+        trello_list.list_cards.return_value = [mock_card]
         return trello_list
 
     all_lists = [
@@ -57,7 +52,7 @@ def mock_board():
 
     board = MagicMock(spec=Board)
     board.name = "Test Board"
-    board.all_lists.return_value = [build_trello_list(list_name) for list_name in all_lists]
+    board.all_lists.return_value = [build_trello_list(list_name, mock_card) for list_name in all_lists]
     return board
 
 

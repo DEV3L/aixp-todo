@@ -5,19 +5,20 @@ import pytest
 from trello import Board, Card
 from trello import List as TrelloList
 
-from src.dataclasses.categorized_list import CategorizedLists
 from src.services.trello_service import TrelloService
 
 
-def test_extract_cards_info(trello_service: TrelloService, mock_trello_list: MagicMock, mock_card: Card):
-    mock_trello_list.list_cards = MagicMock(return_value=[mock_card])
-    categorized_lists = CategorizedLists[TrelloList](todo=[], doing=[mock_trello_list], done=[])
+def test_extract_cards_info(
+    trello_service: TrelloService, mock_board: Board, mock_trello_list: MagicMock, mock_card: Card
+):
+    categorized_lists = trello_service.extract_cards_info(mock_board)
 
-    cards_info = trello_service.extract_cards_info(categorized_lists)
+    assert len(categorized_lists.todo) == 2
+    assert len(categorized_lists.doing) == 2
+    assert len(categorized_lists.done) == 4
 
-    assert len(cards_info) == 1
-    card_info = cards_info[0]
-    assert card_info.list_name == "Doing"
+    card_info = categorized_lists.todo[0]
+    assert card_info.list_name == "Icebox"
     assert card_info.description == "Test card description"
     assert card_info.labels == ["Label1", "Label2"]
     assert card_info.comments == ["Test comment"]

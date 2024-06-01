@@ -10,17 +10,24 @@ from src.functions import first
 from src.services.trello_utilities import extract_card_info, trello_list_reducer
 
 
+def extract_card_info_from_list(trello_list: list[TrelloList]) -> list[TrelloCard]:
+    return [extract_card_info(trello_list, card) for trello_list in trello_list for card in trello_list.list_cards()]
+
+
 class TrelloService:
     def __init__(self, client: TrelloClient):
         self.client = client
 
-    def extract_cards_info(self, categorized_lists: CategorizedLists[TrelloList]) -> list[TrelloCard]:
+    def extract_cards_info(self, board: Board):
+        categorized_lists = self.categorize_lists(board)
+
         logger.debug(f"Extracting Trello Cards from categorized lists: {categorized_lists}")
-        return [
-            extract_card_info(trello_list, card)
-            for trello_list in categorized_lists.todo + categorized_lists.doing + categorized_lists.done
-            for card in trello_list.list_cards()
-        ]
+
+        todo = extract_card_info_from_list(categorized_lists.todo)
+        doing = extract_card_info_from_list(categorized_lists.doing)
+        done = extract_card_info_from_list(categorized_lists.done)
+
+        return CategorizedLists(todo=todo, doing=doing, done=done)
 
     def categorize_lists(self, board: Board) -> CategorizedLists[TrelloList]:
         trello_lists = self.get_lists_for_board(board)

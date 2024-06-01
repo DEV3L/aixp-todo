@@ -1,7 +1,6 @@
 from unittest.mock import MagicMock
 
 from trello import Board
-from trello import List as TrelloList
 
 from src.dataclasses.categorized_list import CategorizedLists
 from src.dataclasses.trello_card import TrelloCard
@@ -9,24 +8,35 @@ from src.orchestrators.orchestration_service import OrchestrationService
 from src.services.trello_service import TrelloService
 
 
-def test_get_all_card_data(mock_board: Board, categorized_lists: CategorizedLists[TrelloList], trello_card: TrelloCard):
+def test_get_board_markdown(mock_board: Board, trello_card: TrelloCard):
+    expected_markdown = """# TODO
+
+## List Name
+
+To Do
+
+## Labels
+
+- Label1
+- Label2
+
+## Description
+
+Test card description
+
+## Comments
+
+Test comment
+"""
+
     mock_trello_service = MagicMock(spec=TrelloService)
     mock_trello_service.get_board_by_name.return_value = mock_board
-    mock_trello_service.categorize_lists.return_value = categorized_lists
-    mock_trello_service.extract_cards_info.return_value = [trello_card]
+    mock_trello_service.extract_cards_info.return_value = CategorizedLists(todo=[trello_card])
 
     orchestration_service = OrchestrationService(mock_trello_service)
-    cards_info = orchestration_service.get_all_card_data("Test Board")
+    markdown = orchestration_service.get_board_markdown("Test Board")
 
-    assert len(cards_info) == 1
-
-    card_info = cards_info[0]
-    assert card_info.list_name == "To Do"
-    assert card_info.description == "Test card description"
-    assert card_info.labels == ["Label1", "Label2"]
-    assert card_info.comments == ["Test comment"]
-    assert card_info.due_date == ""
+    assert markdown == expected_markdown
 
     mock_trello_service.get_board_by_name.assert_called_once_with("Test Board")
-    mock_trello_service.categorize_lists.assert_called_once_with(mock_board)
-    mock_trello_service.extract_cards_info.assert_called_once_with(categorized_lists)
+    mock_trello_service.extract_cards_info.assert_called_once_with(mock_trello_service.get_board_by_name.return_value)
