@@ -10,6 +10,7 @@ def extract_card_info(trello_list: TrelloList, card: Card) -> TrelloCard:
     logger.debug(f"Extracting Trello Card information for card: {card.name}")
     return TrelloCard(
         list_name=trello_list.name,
+        title=card.name,
         description=card.description,
         labels=[label.name for label in card.labels],
         comments=[comment["data"]["text"] for comment in card.comments],

@@ -5,6 +5,7 @@ from typing import List, Literal
 
 @dataclass
 class TrelloCard:
+    title: str
     list_name: str
     description: str
     labels: List[str]

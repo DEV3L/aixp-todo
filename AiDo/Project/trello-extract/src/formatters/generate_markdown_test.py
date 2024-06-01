@@ -49,6 +49,30 @@ Task 2
     assert markdown == expected_markdown
 
 
+def test_card_title_names():
+    expected_markdown = """# TODO
+
+## Title
+
+Title 1
+
+## Title
+
+Title 2
+"""
+
+    categorized_list = CategorizedLists(
+        todo=[
+            build_trello_card(title="Title 1"),
+            build_trello_card(title="Title 2"),
+        ]
+    )
+
+    markdown = generate_markdown(categorized_list)
+
+    assert markdown == expected_markdown
+
+
 def test_card_labels():
     expected_markdown = """# TODO
 
@@ -159,6 +183,10 @@ Comment 1
 def test_generate_markdown():
     expected_markdown = """# TODO
 
+## Title
+
+Title 1
+
 ## List Name
 
 Task 1
@@ -184,6 +212,7 @@ Comment 1
     categorized_list = CategorizedLists(
         todo=[
             build_trello_card(
+                title="Title 1",
                 list_name="Task 1",
                 labels=["bug", "urgent"],
                 due_date=datetime(2024, 5, 1, 0, 0),
@@ -200,6 +229,7 @@ Comment 1
 
 def build_trello_card(
     *,
+    title="",
     list_name="",
     description="",
     labels: list[str] = [],
@@ -207,6 +237,7 @@ def build_trello_card(
     due_date: datetime | Literal[""] = "",
 ):
     return TrelloCard(
+        title=title,
         list_name=list_name,
         description=description,
         labels=labels,

@@ -19,6 +19,7 @@ def format_category(category: str, cards: list[TrelloCard]):
 
 
 def format_card(card: TrelloCard):
+    title_lines = ["## Title", "", card.title, ""] if card.title else []
     list_name_lines = ["## List Name", "", card.list_name, ""] if card.list_name else []
     labels_lines = ["## Labels", ""] + [f"- {label}" for label in card.labels] + [""] if card.labels else []
     due_date_lines = ["## Due Date", "", str(card.due_date), ""] if card.due_date else []
@@ -27,4 +28,4 @@ def format_card(card: TrelloCard):
         ["## Comments", ""] + [f"{escape_markdown(comment)}\n" for comment in card.comments] if card.comments else []
     )
 
-    return list_name_lines + labels_lines + due_date_lines + description_lines + comments_lines
+    return title_lines + list_name_lines + labels_lines + due_date_lines + description_lines + comments_lines
