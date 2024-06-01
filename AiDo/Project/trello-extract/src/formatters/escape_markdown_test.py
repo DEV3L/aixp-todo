@@ -1,4 +1,4 @@
-from src.formatter.escape_markdown import escape_markdown
+from src.formatters.escape_markdown import escape_markdown
 
 
 def test_escape_markdown():

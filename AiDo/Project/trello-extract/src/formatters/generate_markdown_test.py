@@ -3,7 +3,7 @@ from typing import Literal
 
 from src.dataclasses.categorized_list import CategorizedLists
 from src.dataclasses.trello_card import TrelloCard
-from src.formatter.generate_markdown import generate_markdown
+from src.formatters.generate_markdown import generate_markdown
 
 
 def test_headers():

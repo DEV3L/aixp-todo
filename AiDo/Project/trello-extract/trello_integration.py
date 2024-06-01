@@ -14,8 +14,8 @@ def main():
     orchestration_service = OrchestrationService(TrelloService(get_trello_client(settings)))
 
     try:
-        markdown = orchestration_service.get_board_markdown(settings.trello_board_name)
-        print(markdown)
+        markdown_file_name = orchestration_service.write_board_markdown_to_file(settings.trello_board_name, "bin")
+        logger.info(f"Markdown file written to {markdown_file_name}")
     except RuntimeError as e:
         logger.error(e)
 

@@ -1,6 +1,6 @@
 from src.dataclasses.categorized_list import CategorizedLists
 from src.dataclasses.trello_card import TrelloCard
-from src.formatter.escape_markdown import escape_markdown
+from src.formatters.escape_markdown import escape_markdown
 
 
 def generate_markdown(categorized_lists: CategorizedLists[TrelloCard]) -> str:
