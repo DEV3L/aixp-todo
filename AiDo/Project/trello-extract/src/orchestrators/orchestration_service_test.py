@@ -3,9 +3,9 @@ from unittest.mock import MagicMock
 from trello import Board
 from trello import List as TrelloList
 
-from src.orchestrators.orchestration_service import OrchestrationService
 from src.dataclasses.categorized_list import CategorizedLists
 from src.dataclasses.trello_card import TrelloCard
+from src.orchestrators.orchestration_service import OrchestrationService
 from src.services.trello_service import TrelloService
 
 
@@ -15,7 +15,7 @@ def test_get_all_card_data(mock_board: Board, categorized_lists: CategorizedList
     mock_trello_service.categorize_lists.return_value = categorized_lists
     mock_trello_service.extract_cards_info.return_value = [trello_card]
 
-    orchestration_service = OrchestrationService(trello_service=mock_trello_service)
+    orchestration_service = OrchestrationService(mock_trello_service)
     cards_info = orchestration_service.get_all_card_data("Test Board")
 
     assert len(cards_info) == 1

@@ -1,19 +1,12 @@
 from datetime import datetime
 from typing import Literal
 
-import pytest
-
 from src.dataclasses.categorized_list import CategorizedLists
 from src.dataclasses.trello_card import TrelloCard
-from src.services.markdown_service import MarkdownService
+from src.formatter.generate_markdown import generate_markdown
 
 
-@pytest.fixture(name="service")
-def markdown_service() -> MarkdownService:
-    return MarkdownService()
-
-
-def test_headers(service: MarkdownService):
+def test_headers():
     expected_markdown = """# TODO
 
 # DOING
@@ -27,12 +20,12 @@ def test_headers(service: MarkdownService):
         done=[build_trello_card()],
     )
 
-    markdown = service.generate_markdown(categorized_list)
+    markdown = generate_markdown(categorized_list)
 
     assert markdown == expected_markdown
 
 
-def test_card_list_names(service: MarkdownService):
+def test_card_list_names():
     expected_markdown = """# TODO
 
 ## List Name
@@ -51,12 +44,12 @@ Task 2
         ]
     )
 
-    markdown = service.generate_markdown(categorized_list)
+    markdown = generate_markdown(categorized_list)
 
     assert markdown == expected_markdown
 
 
-def test_card_labels(service: MarkdownService):
+def test_card_labels():
     expected_markdown = """# TODO
 
 ## List Name
@@ -75,12 +68,12 @@ Task 1
         ]
     )
 
-    markdown = service.generate_markdown(categorized_list)
+    markdown = generate_markdown(categorized_list)
 
     assert markdown == expected_markdown
 
 
-def test_card_due_date(service: MarkdownService):
+def test_card_due_date():
     expected_markdown = """# TODO
 
 ## List Name
@@ -101,12 +94,12 @@ Task 1
         ]
     )
 
-    markdown = service.generate_markdown(categorized_list)
+    markdown = generate_markdown(categorized_list)
 
     assert markdown == expected_markdown
 
 
-def test_card_descriptions(service: MarkdownService):
+def test_card_descriptions():
     expected_markdown = """# TODO
 
 ## List Name
@@ -133,12 +126,12 @@ Task 2
         ]
     )
 
-    markdown = service.generate_markdown(categorized_list)
+    markdown = generate_markdown(categorized_list)
 
     assert markdown == expected_markdown
 
 
-def test_card_comments(service: MarkdownService):
+def test_card_comments():
     expected_markdown = """# TODO
 
 ## List Name
@@ -158,12 +151,12 @@ Comment 1
         ]
     )
 
-    markdown = service.generate_markdown(categorized_list)
+    markdown = generate_markdown(categorized_list)
 
     assert markdown == expected_markdown
 
 
-def test_generate_markdown(service: MarkdownService):
+def test_generate_markdown():
     expected_markdown = """# TODO
 
 ## List Name
@@ -200,7 +193,7 @@ Comment 1
         ]
     )
 
-    markdown = service.generate_markdown(categorized_list)
+    markdown = generate_markdown(categorized_list)
 
     assert markdown == expected_markdown
 

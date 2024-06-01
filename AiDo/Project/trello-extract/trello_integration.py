@@ -14,9 +14,8 @@ def main():
     orchestration_service = OrchestrationService(TrelloService(get_trello_client(settings)))
 
     try:
-        all_cards = orchestration_service.get_all_card_data(settings.trello_board_name)
-        for card in all_cards:
-            logger.info(f"Card: {card})")
+        markdown = orchestration_service.get_board_markdown(settings.trello_board_name)
+        print(markdown)
     except RuntimeError as e:
         logger.error(e)
 
