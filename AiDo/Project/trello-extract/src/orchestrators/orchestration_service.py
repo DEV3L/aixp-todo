@@ -11,7 +11,7 @@ class OrchestrationService:
     def write_board_markdown_to_file(self, board_name: str, directory: str) -> str:
         markdown_content = self.get_board_markdown(board_name)
         os.makedirs(directory, exist_ok=True)
-        file_path = os.path.join(directory, f"{board_name}-trello.md")
+        file_path = os.path.join(directory, f"{board_name} Trello.txt")
         with open(file_path, "w") as file:
             file.write(markdown_content)
         return file_path
