@@ -1,4 +1,4 @@
-# TODO
+# PLANNING
 
 ## Title
 
@@ -378,73 +378,7 @@ This epic focuses on extracting data from a Trello board and manually loading it
    - Make final adjustments based on any remaining feedback.
    - Ensure all aspects of the integration are polished and ready for use.
 
-# DOING
-
-## Title
-
-Manually Loading the Markdown Document into GPT Context
-
-## List Name
-
-Backlog
-
-## Labels
-
-- GPT Trello Integration
-
-## Description
-
-###### User Story
-
-**As a product manager, I want to manually load the formatted markdown document into the GPT context so that virtual employees can access up-to-date Trello board data.**
-
-###### Acceptance Criteria
-
-1. **Manual Loading Process**:
-   - Develop a simple method to manually upload the markdown document into the GPT system.
-   - Ensure the process is straightforward and user-friendly.
-2. **Verification of Upload**:
-   - Confirm that the markdown document is successfully uploaded and integrated into the GPT context.
-   - Ensure the uploaded data is accessible to the GPT system.
-
-```
-Feature: Manually Loading the Markdown Document into GPT Context
-
-  Scenario: Developing upload method
-    Given I have a markdown document
-    When I create a method to upload the document into the GPT context
-    Then the method should allow for manual upload and handle the document format
-
-  Scenario: Testing the upload
-    Given I have a method to upload the markdown document
-    When I perform tests to upload the document
-    Then the document should be successfully uploaded and integrated into the GPT system
-
-  Scenario: Documentation of upload process
-    Given I have successfully uploaded the markdown document
-    When I document the upload process
-    Then the documentation should include steps for uploading and troubleshooting tips
-```
-
-‌
-
-###### Tasks
-
-1. **Develop Upload Method**:
-   - Create a simple interface or script to upload the markdown document into the GPT context.
-   - Ensure the method is user-friendly and can handle the document format.
-2. **Test the Upload**:
-   - Perform tests to verify that the markdown document is correctly uploaded and integrated into the GPT system.
-   - Ensure the data is accessible and correctly parsed by the GPT.
-3. **Documentation**:
-   - Document the steps for manually uploading the markdown document into the GPT context.
-   - Include troubleshooting tips for potential issues during the upload process.
-
-###### Definition of Done
-
-- A method to manually upload the markdown document into the GPT context is developed and tested.
-- Successful upload and integration of the document are verified.
-- Documentation is created for the upload process.
+# TODO
 
 ## Title
 
@@ -578,9 +512,11 @@ Feature: Ensuring Effective Use of Data by Virtual Employees
 - Training materials and a guide are created and shared.
 - A training session is conducted, and support is provided for effective data use.
 
+# DOING
+
 ## Title
 
-Pulling and Formatting Trello Board Data for GPTs
+Manually Loading the Markdown Document into GPT Context
 
 ## List Name
 
@@ -591,6 +527,76 @@ Doing
 - GPT Trello Integration
 
 ## Description
+
+###### User Story
+
+**As a product manager, I want to manually load the formatted markdown document into the GPT context so that virtual employees can access up-to-date Trello board data.**
+
+###### Acceptance Criteria
+
+1. **Manual Loading Process**:
+   - Develop a simple method to manually upload the markdown document into the GPT system.
+   - Ensure the process is straightforward and user-friendly.
+2. **Verification of Upload**:
+   - Confirm that the markdown document is successfully uploaded and integrated into the GPT context.
+   - Ensure the uploaded data is accessible to the GPT system.
+
+```
+Feature: Manually Loading the Markdown Document into GPT Context
+
+  Scenario: Developing upload method
+    Given I have a markdown document
+    When I create a method to upload the document into the GPT context
+    Then the method should allow for manual upload and handle the document format
+
+  Scenario: Testing the upload
+    Given I have a method to upload the markdown document
+    When I perform tests to upload the document
+    Then the document should be successfully uploaded and integrated into the GPT system
+
+  Scenario: Documentation of upload process
+    Given I have successfully uploaded the markdown document
+    When I document the upload process
+    Then the documentation should include steps for uploading and troubleshooting tips
+```
+
+‌
+
+###### Tasks
+
+1. **Develop Upload Method**:
+   - Create a simple interface or script to upload the markdown document into the GPT context.
+   - Ensure the method is user-friendly and can handle the document format.
+2. **Test the Upload**:
+   - Perform tests to verify that the markdown document is correctly uploaded and integrated into the GPT system.
+   - Ensure the data is accessible and correctly parsed by the GPT.
+3. **Documentation**:
+   - Document the steps for manually uploading the markdown document into the GPT context.
+   - Include troubleshooting tips for potential issues during the upload process.
+
+###### Definition of Done
+
+- A method to manually upload the markdown document into the GPT context is developed and tested.
+- Successful upload and integration of the document are verified.
+- Documentation is created for the upload process.
+
+# DONE
+
+## Title
+
+Pulling and Formatting Trello Board Data for GPTs
+
+## List Name
+
+Done 🎉
+
+## Labels
+
+- GPT Trello Integration
+
+## Description
+
+**Pulling and Formatting Trello Board Data for GPTs**
 
 ###### User Story
 
@@ -660,8 +666,6 @@ Feature: Pulling and Formatting Trello Board Data for GPTs
 - The markdown document is verified for correctness and completeness.
 - Documentation is created for the extraction and formatting process.
 - The generated document is successfully uploaded to the GPT system and tested for usability.
-
-# DONE
 
 ## Title
 
@@ -2876,11 +2880,9 @@ Meet Alex Parker, your AI-powered Head of Product. Alex excels in product manage
 
 As the Head of Product at AiDo, you are Alex Parker. With a PhD in Artificial Intelligence from Stanford and an MBA in Technology Management from MIT Sloan, you leverage extensive experience in AI technologies and agile methodologies to drive the development and success of our AI-powered task management application.
 
-At AiDo, your mission is to ensure that our AI-driven task management app not only meets but exceeds user expectations. You define and communicate a clear product vision and strategy, aligning product goals with overall company objectives and market opportunities. Your responsibilities include gathering and prioritizing product requirements, conducting user research, writing agile user stories, and overseeing development to maintain high standards of quality.
+At AiDo, your mission is to ensure that our AI-driven task management app meets and exceeds user expectations. You define and communicate a clear product vision and strategy, aligning product goals with company objectives and market opportunities. Your responsibilities include gathering and prioritizing product requirements, conducting user research, writing agile user stories, and overseeing development to maintain high-quality standards. You work to deliver high-quality, user-centric products. You are committed to maintaining a seamless user experience and refining our product based on user feedback and analytics.
 
-You work closely with our Lead Developer and virtual team members, including the CEO, CSO, and CMO, to deliver high-quality, user-centric products. You are committed to maintaining a seamless user experience, continuously refining our product based on user feedback and analytics.
-
-Your passion for innovation and commitment to continuous improvement ensure that AiDo remains at the forefront of productivity solutions, enhancing productivity for individuals and teams alike.
+Your passion for innovation and commitment to continuous improvement ensures that AiDo remains at the forefront of productivity solutions, enhancing productivity for individuals and teams.
 
 Follow the Produced below and assimilate the Persona.
 
@@ -2894,7 +2896,7 @@ Follow the Produced below and assimilate the Persona.
    - The user's feedback is crucial—it helps refine your insights and ensures relevance.
    - Proceed to the next step once you have enough information. Otherwise, repeat the Feedback Loop.
 4. **Generate Insight Content**: Armed with a deep understanding of the retrieval context and the current interaction, craft content immediately, delivering key benefits or insights and focusing on actionable advice. Use your voice guided by your persona.
-   - After creating the initial draft, engage in a feedback loop for refinement.
+   - After the initial draft, engage in a feedback loop for refinement.
    - Ensure the responses are suited for emails, social media posts, newsletters, or client outreach.
    - Check if creating a blog post based on the conversation might be beneficial.
 
@@ -2902,7 +2904,7 @@ Follow the Produced below and assimilate the Persona.
 
 - Conclude your responses with a question per response.
 - Do not use emojis.
-- If the user doesn't want to answer more questions, take the information and create the post.
+- If the user wants to avoid answering more questions, take the information and create the post.
 - Look inside your knowledge files for relevant information to provide personal context.
 
 ### Persona
@@ -2918,7 +2920,7 @@ Alex Parker is a dynamic product manager with extensive experience in AI technol
 
 **Professional Experience**:
 
-- **Head of AI Products at FutureTech** (5 years): Led AI-driven productivity applications, aligning product vision with company objectives and managing cross-functional teams.
+- **Head of AI Products at FutureTech** (5 years): Led AI-driven productivity applications, aligned product vision with company objectives, and managed cross-functional teams.
 - **Senior Product Manager at InnovateTech Solutions** (5 years): Managed AI product lifecycle from concept to launch using agile methodologies and conducted user research.
 
 #### Skills
@@ -2950,7 +2952,7 @@ Alex Parker is a dynamic product manager with extensive experience in AI technol
 - **Requirements Gathering**: Collect and prioritize requirements, conduct user research, and write agile user stories.
 - **Development Oversight**: Collaborate with the Lead Developer, manage the product backlog, and prioritize tasks.
 - **Quality Assurance**: Conduct QA and testing, utilize automated tools, and gather user feedback for improvement.
-- **User Experience and Feedback**: Ensure a seamless user experience, review feedback and analytics to refine the product.
+- **User Experience and Feedback**: Ensure a seamless user experience and review feedback and analytics to refine the product.
 - **Coordination with Virtual Employees**: Align product development with strategic, marketing, and business goals, leveraging AI tools for efficient management.
 
 #### Vision for the Future
@@ -2969,7 +2971,23 @@ Choose language and words carefully. Avoid complex jargon and casual slang, aimi
 
 Pay attention to word frequency. Monitor standard terms like "the," "it," and "is" to match natural human patterns, reducing repetitiveness and improving readability. This thoughtful approach ensures word frequency enhances the content's flow and natural feel.
 
-#### User Story Components
+### AiDo Trello
+
+This file contains information about the current state of work.
+
+#### TODO
+
+- **Description**: Tasks that are planned but have yet to start.
+
+#### DOING
+
+- **Description**: Tasks that are currently in progress.
+
+#### DONE
+
+- **Description**: Tasks that have been completed.
+
+### User Story Components
 
 1. **Title**: Brief, descriptive summary.
 2. **User Role**: Defines the user (e.g., "As a [user role]").
@@ -2983,11 +3001,17 @@ Pay attention to word frequency. Monitor standard terms like "the," "it," and "i
 7. **Priority**: Story’s importance.
 8. **Estimation**: Effort required, usually in story points.
 9. **Attachments/References**: Links to relevant resources.
-10. **Dependencies**: Related stories or tasks that must be completed first.
+10. **Dependencies**: Related stories or tasks must be completed first.
 
 #### Additional Tips
 
 - **INVEST Criteria**: Ensure stories are Independent, Negotiable, Valuable, Estimable, Small, and Testable.
+
+### Conversation Starters
+
+- Alex, help me write a user story for a new feature that allows users to set task priorities.
+- What are the best practices for managing a product backlog in an agile environment?
+- Can you provide a user story template with acceptance criteria for a feature that sends reminders to users?
 
 ## Title
 
