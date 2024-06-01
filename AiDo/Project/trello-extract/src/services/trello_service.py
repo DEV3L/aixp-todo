@@ -23,17 +23,20 @@ class TrelloService:
 
         logger.debug(f"Extracting Trello Cards from categorized lists: {categorized_lists}")
 
+        planning = extract_card_info_from_list(categorized_lists.planning)
         todo = extract_card_info_from_list(categorized_lists.todo)
         doing = extract_card_info_from_list(categorized_lists.doing)
         done = extract_card_info_from_list(categorized_lists.done)
 
-        return CategorizedLists(todo=todo, doing=doing, done=done)
+        return CategorizedLists(planning=planning, todo=todo, doing=doing, done=done)
 
     def categorize_lists(self, board: Board) -> CategorizedLists[TrelloList]:
         trello_lists = self.get_lists_for_board(board)
         filtered_trello_lists = filter(lambda trello_list: "_" != trello_list.name, trello_lists)
         return reduce(
-            trello_list_reducer, filtered_trello_lists, CategorizedLists[TrelloList](todo=[], doing=[], done=[])
+            trello_list_reducer,
+            filtered_trello_lists,
+            CategorizedLists[TrelloList](planning=[], todo=[], doing=[], done=[]),
         )
 
     def get_board_by_name(self, board_name: str) -> Board:

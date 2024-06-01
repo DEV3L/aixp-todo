@@ -7,7 +7,9 @@ from src.formatters.generate_markdown import generate_markdown
 
 
 def test_headers():
-    expected_markdown = """# TODO
+    expected_markdown = """# PLANNING
+
+# TODO
 
 # DOING
 
@@ -15,6 +17,7 @@ def test_headers():
 """
 
     categorized_list = CategorizedLists(
+        planning=[build_trello_card()],
         todo=[build_trello_card()],
         doing=[build_trello_card()],
         done=[build_trello_card()],

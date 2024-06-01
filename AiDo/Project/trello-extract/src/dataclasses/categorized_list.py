@@ -6,6 +6,7 @@ T = TypeVar("T")
 
 @dataclass
 class CategorizedLists(Generic[T]):
+    planning: list[T] = field(default_factory=list)
     todo: list[T] = field(default_factory=list)
     doing: list[T] = field(default_factory=list)
     done: list[T] = field(default_factory=list)
