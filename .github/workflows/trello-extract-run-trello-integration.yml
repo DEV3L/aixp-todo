@@ -1,0 +1,40 @@
+name: Run Trello Integration
+
+on:
+  workflow_dispatch:
+    inputs:
+      trello_board_name:
+        description: "Name of the Trello board"
+        required: true
+        default: "AiDo"
+
+jobs:
+  run-trello-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: |
+          cd AiDo/Project/trello-extract
+          python -m pip install hatch
+          hatch env create
+      - name: Unit tests
+        run: |
+          cd AiDo/Project/trello-extract
+          hatch run test
+      - name: Run Trello Integration
+        env:
+          TRELLO_BOARD_NAME: ${{ github.event.inputs.trello_board_name }}
+        run: |
+          cd AiDo/Project/trello-extract
+          python trello_integration.py
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: trello-markdown-file
+          path: AiDo/Project/trello-extract/bin/${{ github.event.inputs.trello_board_name }}-trello.md
