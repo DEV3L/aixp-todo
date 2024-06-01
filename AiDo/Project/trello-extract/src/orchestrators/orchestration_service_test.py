@@ -12,6 +12,10 @@ from src.services.trello_service import TrelloService
 def test_get_board_markdown(mock_board: Board, trello_card: TrelloCard):
     expected_markdown = """# TODO
 
+## Title
+
+Title
+
 ## List Name
 
 To Do

@@ -17,6 +17,7 @@ def trello_service(mock_trello_client: TrelloClient):
 @pytest.fixture
 def trello_card():
     return TrelloCard(
+        title="Title",
         list_name="To Do",
         description="Test card description",
         labels=["Label1", "Label2"],
