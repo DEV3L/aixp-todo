@@ -580,6 +580,14 @@ Feature: Manually Loading the Markdown Document into GPT Context
 - Successful upload and integration of the document are verified.
 - Documentation is created for the upload process.
 
+## Comments
+
+Use GitHub Action to be able to create an upload file by manually triggering the action.
+
+Pushed it into the Head of Product Custom GPT.
+
+Working on refining the prompt.
+
 # DONE
 
 ## Title
@@ -2253,6 +2261,797 @@ Team Leaders use AiDo to efficiently manage projects and delegate tasks within t
 
 ## Title
 
+AiDo Website - Landing Page
+
+## List Name
+
+Product
+
+## Labels
+
+- Website
+
+## Description
+
+[https://sites.google.com/view/ai-todo/aido](https://sites.google.com/view/ai-todo/aido "smartCard-inline")
+
+Welcome to AiDo, your personal AI task manager. Our landing page showcases how AiDo leverages advanced AI to enhance productivity through smart task analysis, dynamic prioritization, and seamless integration with your favorite apps. Discover user testimonials, key features, and the benefits of joining our beta program to revolutionize your task management. Contact us to learn more about how AiDo can transform your productivity.
+
+![image.png](https://trello.com/1/cards/664eb8e1b2e470a29a07d368/attachments/664eb95e2915c19a079f064e/download/image.png)
+
+## Title
+
+AiDo Website - Product Description
+
+## List Name
+
+Product
+
+## Labels
+
+- Website
+
+## Description
+
+[https://sites.google.com/view/ai-todo/aido/product-description](https://sites.google.com/view/ai-todo/aido/product-description "smartCard-inline")
+
+![image.png](https://trello.com/1/cards/664eb9e82a73fc92af1edb3b/attachments/664eb9f2c2c22641220c9223/download/image.png)
+
+## Title
+
+AiDo Website - Who We Are
+
+## List Name
+
+Product
+
+## Labels
+
+- Website
+
+## Description
+
+[https://sites.google.com/view/ai-todo/aido/who-we-are](https://sites.google.com/view/ai-todo/aido/who-we-are "smartCard-inline")
+
+Our "Who We Are" page introduces the passionate professionals behind AiDo, showcasing their expertise and dedication to enhancing productivity through cutting-edge AI technology. Meet our leadership team, including CEO Jasper Bell, who integrates AI with task management; Chief Strategy Officer Elena Myles, who drives our strategic direction with her deep market insights; and Chief Marketing Officer Jordan Taylor, who leads our marketing strategies with a focus on innovation. Learn about their backgrounds, roles, and how they steer AiDo toward revolutionizing task management. Join our beta program to experience AiDo's AI-driven productivity enhancements. Contact us to discover more about how AiDo can transform your productivity.
+
+## Title
+
+AiDo Website - Who Uses AiDo
+
+## List Name
+
+Product
+
+## Description
+
+[https://sites.google.com/view/ai-todo/aido/who-uses-aido](https://sites.google.com/view/ai-todo/aido/who-uses-aido "smartCard-inline")
+
+# USERS
+
+## Title
+
+Busy Parent - Sarah Thompson
+
+## List Name
+
+Target User Personas
+
+## Labels
+
+- Customer Personas
+
+## Description
+
+### Busy Parent - Sarah Thompson
+
+**Age:** 38
+**Gender:** Female
+**Occupation:** Marketing Manager
+**Location:** Chicago, IL
+**Family:** Married with two children (ages 6 and 10)
+
+![Sarah\_Thompson.png](https://trello.com/1/cards/6654cb3193277a7afa412ff8/attachments/6654cb885c7772f96a4a2397/download/Sarah_Thompson.png)
+
+#### Background
+
+Sarah is a seasoned marketing manager with over 15 years of experience, living in Chicago with her husband and two young children. She has a bachelor’s degree in Business Administration and balances a demanding career with a bustling family life. Sarah is responsible for managing marketing campaigns, coordinating teams, and meeting tight deadlines at work, while also handling household chores and her children's schedules at home. Despite her proficiency with productivity tools, she often feels overwhelmed by the sheer volume of tasks.
+
+#### Personality
+
+- **Organized and Multi-tasker:** Likes to keep things structured and is adept at juggling multiple responsibilities.
+- **Empathetic and Adaptable:** Cares deeply about her family's needs and quickly adapts to changing situations.
+- **Perfectionist:** Strives for excellence in both professional and personal life.
+
+#### Motivations and Goals
+
+- **Primary Goal:** Efficiently manage household and work tasks to reduce stress and improve family coordination.
+- **Secondary Goals:** Find time for personal hobbies, ensure children are engaged in productive activities, maintain a healthy work-life balance.
+- **Achieve Work-Life Balance:** Manage professional duties efficiently while being present for her family.
+- **Stay Organized:** Keep track of household chores, children's schedules, and work tasks in an organized manner.
+- **Increase Productivity:** Maximize productivity during work hours to have quality time with family.
+- **Ensure Family Well-being:** Meet family needs and maintain a well-coordinated schedule.
+
+#### Behaviors and Patterns
+
+- **Daily Routine:** Starts her day with a quick check of her calendar and task list, handles work emails and meetings in the morning, switches to household tasks in the afternoon, and spends the evening with her family.
+- **Technology Usage:** Uses her smartphone for quick task updates and reminders throughout the day and her laptop for more detailed planning in the morning and evening.
+- **Morning Routine:** Starts her day early to prepare for work and get her children ready for school.
+- **Task List:** Maintains a detailed to-do list to keep track of daily tasks.
+- **Time Blocks:** Uses time blocking to allocate specific periods for work, family time, and personal activities.
+- **Family Meetings:** Holds weekly family meetings to coordinate schedules and discuss plans.
+
+#### Hobbies and Interests
+
+- **Cooking:** Enjoys experimenting with new recipes and cooking meals for her family.
+- **Reading:** Loves reading mystery novels to unwind.
+- **Volunteering:** Actively volunteers at her children's school and in the community.
+- **Yoga:** Practices yoga to relax and maintain physical fitness.
+
+#### Challenges
+
+- **Time Management:** Balancing work deadlines with family responsibilities is a constant struggle.
+- **Overwhelm:** The sheer number of tasks and responsibilities often feels overwhelming.
+- **Task Coordination:** Keeping track of everyone's schedules and ensuring all tasks are completed on time.
+- **Maintaining Efficiency:** Finding ways to work efficiently and reduce time spent on mundane tasks.
+
+#### Pain Points
+
+- **Stress from Overload:** Frequent feeling of being overwhelmed by the sheer volume of tasks.
+- **Fragmented Tools:** Frustration with juggling multiple apps and tools for different tasks.
+- **Coordination Issues:** Challenges in ensuring all family members are on the same page regarding schedules and responsibilities.
+- **Forgetfulness:** Missing important tasks or appointments due to the volume of responsibilities.
+- **Inefficiency:** Spending too much time on task management rather than completing tasks.
+- **Stress and Burnout:** Feeling stressed and burnt out due to the constant juggling of work and family duties.
+
+#### Preferred Communication Channels
+
+- **Primary Channels:** Email, push notifications, and calendar alerts.
+- **Secondary Channels:** SMS reminders for urgent tasks or notifications.
+- **Mobile App Notifications:** Prefers receiving reminders and alerts through mobile app notifications.
+- **Text Messages:** For quick and immediate communication with family and close contacts.
+
+#### Quotes and Insights
+
+- **Quotes:** “I often feel like I’m juggling too many things at once.”
+- **Insights:** “Sarah needs a centralized tool that integrates seamlessly with her existing apps.”
+
+#### Success Criteria
+
+- **Efficiency Gains:** Measurable improvement in task completion rates and reduced time spent managing tasks.
+- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
+- **Family Coordination:** Improved family schedule alignment and fewer missed appointments or deadlines.
+
+#### How AiDo Helps
+
+- **Shared Calendars:** Syncs family schedules, helping Sarah and her husband coordinate more effectively and avoid scheduling conflicts.
+- **Location-Based Notifications:** Reminds her of tasks like grocery shopping or picking up dry cleaning when she’s near relevant locations.
+- **Smart Task Analysis:** Prioritizes tasks and provides timely reminders, ensuring nothing important is overlooked.
+- **Collaborative Features:** Allows her to assign tasks to family members, track their progress, and ensure everyone contributes to household responsibilities.
+
+## Comments
+
+For website:
+
+Busy Parents
+
+**Name:** Sarah Thompson
+
+**Goal:** To manage household tasks and family activities efficiently.
+
+**Description:** Parents and caregivers manage household tasks, shopping lists, and family activities.
+
+**Challenges:** Juggling multiple responsibilities, staying organized, and ensuring timely completion of tasks.
+
+**How AiDo Helps:** AiDo offers shared calendars, location-based notifications, and smart task analysis to help busy parents manage their daily tasks and coordinate effectively with family members.
+
+## Title
+
+Event Planner - Olivia Martinez
+
+## List Name
+
+Target User Personas
+
+## Labels
+
+- Customer Personas
+
+## Description
+
+### Event Planner - Olivia Martinez
+
+**Age:** 35
+**Gender:** Female
+**Occupation:** Senior Event Planner
+**Location:** New York City, NY
+**Family:** Married with two children (ages 5 and 7)
+
+![Olivia\_Martinez.png](https://trello.com/1/cards/6654cbd4aad445303962716e/attachments/6654d4bb734cd414cf00bbe5/download/Olivia_Martinez.png)
+
+#### Background
+
+Olivia has a degree in Hospitality Management and has been working in the event planning industry for over 10 years. She specializes in corporate events but also handles weddings and private parties. Olivia lives in New York City with her husband and two young children. She balances a demanding career with a busy family life, managing to excel in both professional and personal spheres.
+
+#### Personality
+
+- **Highly Organized and Detail-Oriented:** Olivia excels at keeping everything structured and ensures every detail is meticulously planned.
+- **Proactive and Adaptable:** She anticipates potential issues and adapts quickly to changing circumstances.
+- **Creative and Communicative:** Olivia loves bringing innovative ideas to her events and communicates effectively with clients and vendors.
+
+#### Motivations and Goals
+
+- **Primary Goal:** Streamline event planning processes to save time and increase efficiency.
+- **Secondary Goals:** Enhance client satisfaction through meticulous planning and flawless execution. Keep up with industry trends and incorporate innovative ideas into events.
+- **Deliver Successful Events:** Ensure every event is a success, exceeding client expectations.
+- **Stay Current:** Keep up-to-date with the latest trends and technologies in event planning.
+- **Improve Work-Life Balance:** Manage professional duties efficiently to spend quality time with family.
+- **Boost Efficiency:** Implement tools and strategies that increase productivity and reduce stress.
+
+#### Behaviors and Patterns
+
+- **Daily Routine:** Olivia starts her day early with a check of her calendar and task list, handles client meetings and vendor coordination throughout the day, and uses evenings for detailed planning and follow-ups.
+- **Technology Usage:** Utilizes her smartphone and laptop extensively, relying on apps for scheduling, budgeting, and communication.
+- **Morning Routine:** Reviews her schedule and priorities, holds a quick team meeting, and responds to urgent emails.
+- **Task List:** Maintains a detailed to-do list for daily tasks and event-specific responsibilities.
+- **Time Blocks:** Allocates specific periods for client meetings, vendor coordination, and event design.
+- **Weekly Check-ins:** Holds weekly meetings with her team to ensure all tasks are on track.
+
+#### Hobbies and Interests
+
+- **Reading:** Enjoys staying informed about the latest trends in event planning and reading fiction to unwind.
+- **Cooking:** Loves experimenting with new recipes and cooking meals for her family.
+- **Exploring Venues:** Frequently explores new restaurants and venues for potential event locations.
+- **Volunteering:** Actively participates in local charity events and community activities.
+
+#### Challenges
+
+- **Time Management:** Balancing multiple events at different stages of planning simultaneously.
+- **Coordination:** Managing communications and schedules with various vendors, clients, and team members.
+- **Detail Management:** Keeping track of numerous details, from budget constraints to vendor contracts and client preferences.
+- **Stress:** Handling the high-pressure environment of event planning, particularly when unforeseen issues arise.
+
+#### Pain Points
+
+- **Overwhelm:** Managing too many details and deadlines across multiple events.
+- **Communication Gaps:** Miscommunication with clients and vendors due to fragmented communication channels.
+- **Budget Management:** Keeping track of expenses and staying within budget constraints.
+- **Unexpected Issues:** Dealing with last-minute changes or problems that arise during events.
+- **Fragmented Tools:** Frustration with juggling multiple apps and tools for different tasks.
+- **Forgetfulness:** Missing important tasks or appointments due to the volume of responsibilities.
+
+#### Preferred Communication Channels
+
+- **Primary Channels:** Email, push notifications, and calendar alerts.
+- **Secondary Channels:** SMS reminders for urgent tasks or notifications.
+- **Mobile App Notifications:** Prefers receiving reminders and alerts through mobile app notifications.
+- **Instant Messaging:** Uses platforms like Slack or WhatsApp for quick communication with her team.
+- **Video Conferencing:** For virtual meetings with clients and remote vendors.
+
+#### Quotes and Insights
+
+- **Quotes:** “There’s always so much to juggle, and I can’t afford to miss a single detail.”
+- **Insights:** “Olivia needs a centralized tool that integrates seamlessly with her existing apps to keep everything organized and efficient.”
+
+#### Success Criteria
+
+- **Efficiency Gains:** Measurable improvement in task completion rates and reduced time spent managing tasks.
+- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
+- **Client Satisfaction:** Positive feedback from clients and repeat business.
+- **Event Success:** Smoothly executed events without significant issues or delays.
+
+#### How AiDo Helps
+
+- **Comprehensive Task Management:** Ability to create and manage detailed task lists, with deadlines and priority levels.
+- **Collaborative Features:** Easy sharing and collaboration tools for working with team members and vendors.
+- **Automated Reminders:** Automated reminders and notifications for important deadlines and meetings.
+- **Integration Capabilities:** Seamless integration with other commonly used tools and platforms, like Google Calendar, Trello, and CRM systems.
+- **Customization:** Customizable templates and workflows to cater to different types of events.
+- **Real-Time Updates:** Real-time updates and syncing across all devices to ensure the latest information is always accessible.
+- **Budget Tracking:** Tools for tracking and managing event budgets, including expense tracking and financial reporting.
+
+## Comments
+
+For the website:
+
+**Event Planners**
+
+**Name:** Olivia Martinez
+
+**Goal:** To streamline event planning processes and ensure successful event execution.
+
+**Description:** Event planners manage all aspects of events, including client meetings, vendor coordination, budget management, and detailed planning.
+
+**Challenges:** Balancing multiple events, managing communications with vendors and clients, keeping track of numerous details, and handling high-pressure situations.
+
+**How AiDo Helps:** AiDo provides comprehensive task management, collaborative features, automated reminders, integration capabilities, customizable templates, real-time updates, and budget tracking to help event planners streamline their workflow, enhance productivity, and deliver successful events.
+
+## Title
+
+Freelancer - Alex Johnson
+
+## List Name
+
+Target User Personas
+
+## Labels
+
+- Customer Personas
+
+## Description
+
+### Freelancer - Alex Johnson
+
+**Age:** 29
+**Gender:** Male
+**Occupation:** Freelance Graphic Designer
+**Location:** Austin, TX
+**Family:** Single, lives with a roommate
+
+![Alex\_Johnson.png](https://trello.com/1/cards/6654d732698c5227e5659779/attachments/6654da8c988ffa41c3e72157/download/Alex_Johnson.png)
+
+#### Background
+
+Alex holds a degree in Graphic Design and has been freelancing for the past five years. He specializes in branding and web design for small to medium-sized businesses. Alex lives in Austin, where he enjoys the vibrant creative community and the flexibility of his freelance lifestyle. He manages a diverse client portfolio, juggling multiple projects simultaneously.
+
+#### Personality
+
+- **Creative and Innovative:** Alex thrives on creating visually compelling designs and constantly seeks out new design trends.
+- **Self-Motivated and Independent:** He works best on his own schedule and takes initiative to find new clients and projects.
+- **Detail-Oriented and Meticulous:** Alex pays close attention to design details, ensuring high-quality work for his clients.
+
+#### Motivations and Goals
+
+- **Primary Goal:** Streamline project management to maximize productivity and deliver high-quality designs on time.
+- **Secondary Goals:** Expand his client base and improve his professional skills through continuous learning.
+- **Achieve Client Satisfaction:** Deliver exceptional designs that exceed client expectations.
+- **Stay Competitive:** Keep up-to-date with the latest design tools and trends.
+- **Optimize Workflow:** Implement tools and strategies that help manage time and tasks efficiently.
+- **Maintain Work-Life Balance:** Ensure time for personal interests and relaxation despite a busy work schedule.
+
+#### Behaviors and Patterns
+
+- **Daily Routine:** Alex begins his day by reviewing his task list and emails, then focuses on design work, client meetings, and project revisions throughout the day.
+- **Technology Usage:** He relies heavily on his laptop, graphic design software, and project management apps.
+- **Morning Routine:** Checks emails, reviews his task list, and sets priorities for the day.
+- **Task List:** Maintains a detailed to-do list for client projects, deadlines, and personal tasks.
+- **Time Blocks:** Allocates specific time slots for design work, client communication, and administrative tasks.
+- **Weekly Planning:** Plans his week ahead every Sunday to ensure a balanced workflow and timely project delivery.
+
+#### Hobbies and Interests
+
+- **Photography:** Enjoys capturing landscapes and urban scenes in his spare time.
+- **Reading:** Likes reading design blogs, technology news, and science fiction novels.
+- **Traveling:** Loves exploring new cities and gaining inspiration from different cultures.
+- **Music:** Plays guitar and enjoys attending live music events.
+
+#### Challenges
+
+- **Time Management:** Balancing multiple projects and deadlines effectively.
+- **Client Communication:** Ensuring clear and timely communication with clients to avoid misunderstandings.
+- **Isolation:** Managing the potential loneliness of working solo and missing out on team collaboration.
+- **Invoicing and Payments:** Keeping track of invoices and ensuring timely payment from clients.
+- **Self-Promotion:** Continuously marketing his services to attract new clients.
+
+#### Pain Points
+
+- **Overwhelm:** Feeling overwhelmed by the volume of tasks and deadlines.
+- **Fragmented Tools:** Juggling multiple apps and tools for different aspects of his work.
+- **Client Expectations:** Managing client expectations and revisions without compromising on deadlines.
+- **Distractions:** Staying focused and avoiding distractions while working from home.
+- **Work-Life Balance:** Ensuring time for personal interests and relaxation amidst a busy work schedule.
+
+#### Preferred Communication Channels
+
+- **Primary Channels:** Email, project management tools, and calendar alerts.
+- **Secondary Channels:** Instant messaging for quick client updates.
+- **Mobile App Notifications:** Prefers receiving task reminders and project updates through mobile notifications.
+- **Video Conferencing:** Uses Zoom or Skype for client meetings and presentations.
+
+#### Quotes and Insights
+
+- **Quotes:** “I need a tool that helps me keep all my projects organized and ensures I never miss a deadline.”
+- **Insights:** “Alex needs a centralized platform that integrates with his design tools and streamlines project management.”
+
+#### Success Criteria
+
+- **Efficiency Gains:** Measurable improvement in project completion rates and reduced time spent on administrative tasks.
+- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
+- **Client Satisfaction:** Positive feedback from clients and repeat business.
+- **Project Success:** Successfully delivered projects without significant delays or quality issues.
+
+#### How AiDo Helps
+
+- **Comprehensive Task Management:** Ability to create and manage detailed task lists, with deadlines and priority levels.
+- **Collaborative Features:** Easy sharing and collaboration tools for working with clients and other freelancers.
+- **Automated Reminders:** Automated reminders and notifications for important deadlines and meetings.
+- **Integration Capabilities:** Seamless integration with design tools like Adobe Creative Suite, Trello, and invoicing systems.
+- **Customization:** Customizable templates and workflows to cater to different types of design projects.
+- **Real-Time Updates:** Real-time updates and syncing across all devices to ensure the latest information is always accessible.
+- **Budget Tracking:** Tools for tracking project budgets, including expense tracking and financial reporting.
+
+## Comments
+
+For website:
+
+##### Freelancers
+
+**Name:** Alex Johnson
+
+**Goal:** To streamline project management and maximize productivity.
+
+**Description:** Freelance graphic designers manage multiple clients and projects efficiently.
+
+**Challenges:** Balancing multiple projects and deadlines, ensuring clear client communication, and managing invoicing and payments.
+
+**How AiDo Helps:** AiDo offers comprehensive task management, automated reminders, and seamless integration with design tools to help freelancers stay organized, meet deadlines, and deliver high-quality work to clients.
+
+## Title
+
+Productivity Seeker - Jamie Lee
+
+## List Name
+
+Target User Personas
+
+## Labels
+
+- Customer Personas
+
+## Description
+
+### Productivity Seeker - Jamie Lee
+
+**Age:** 26
+**Gender:** Non-binary
+**Occupation:** Marketing Specialist
+**Location:** San Francisco, CA
+**Family:** Single, lives alone
+
+![Jamie\_Lee.png](https://trello.com/1/cards/6654d73727dea9165fb74804/attachments/6654db10da72dd527e6ef4fd/download/Jamie_Lee.png)
+
+#### Background
+
+Jamie has a degree in Marketing and works as a marketing specialist for a tech startup. They are passionate about personal development and productivity optimization. Living in San Francisco, Jamie enjoys the city's innovative atmosphere and is always looking for ways to improve their efficiency and effectiveness both professionally and personally.
+
+#### Personality
+
+- **Ambitious and Goal-Oriented:** Jamie is driven to achieve their goals and constantly seeks self-improvement.
+- **Curious and Analytical:** They enjoy exploring new productivity techniques and tools, analyzing what works best.
+- **Disciplined and Focused:** Jamie is committed to maintaining a structured routine and staying on top of their tasks.
+
+#### Motivations and Goals
+
+- **Primary Goal:** Improve daily productivity and achieve a better work-life balance.
+- **Secondary Goals:** Enhance professional skills and advance in their career.
+- **Achieve Efficiency:** Optimize task management to save time and reduce stress.
+- **Personal Growth:** Continuously learn and apply new productivity strategies.
+- **Balance Life:** Maintain a healthy balance between work and personal life.
+- **Stay Organized:** Keep all tasks and goals clearly outlined and prioritized.
+
+#### Behaviors and Patterns
+
+- **Daily Routine:** Jamie starts their day with a morning routine that includes reviewing their task list, setting priorities, and planning their day.
+- **Technology Usage:** Uses a variety of productivity apps and tools on their smartphone and laptop.
+- **Morning Routine:** Includes meditation, a healthy breakfast, and a review of their daily goals and tasks.
+- **Task List:** Maintains a comprehensive to-do list that covers both work-related and personal tasks.
+- **Time Blocks:** Allocates specific times for focused work, meetings, and breaks to ensure productivity.
+- **Weekly Review:** Reflects on the past week's achievements and sets goals for the upcoming week every Sunday.
+
+#### Hobbies and Interests
+
+- **Reading:** Enjoys reading self-help books and productivity blogs.
+- **Fitness:** Regularly works out and practices yoga to stay fit and focused.
+- **Tech Enthusiast:** Loves trying out new gadgets and apps that can enhance productivity.
+- **Traveling:** Enjoys exploring new places and cultures, often seeking inspiration for personal growth.
+
+#### Challenges
+
+- **Prioritization:** Struggles with prioritizing tasks effectively and sometimes overcommits.
+- **Procrastination:** Occasionally falls into the trap of procrastination, impacting productivity.
+- **Consistency:** Maintaining a consistent work routine, especially during busy periods.
+- **Distractions:** Managing distractions from social media and other non-essential activities.
+- **Work-Life Balance:** Ensuring sufficient time for relaxation and personal interests.
+
+#### Pain Points
+
+- **Overwhelm:** Feeling overwhelmed by a long list of tasks and deadlines.
+- **Fragmented Tools:** Using multiple apps and tools without a unified system.
+- **Time Management:** Difficulty in accurately estimating the time required for tasks.
+- **Burnout:** Risk of burnout due to overworking and insufficient breaks.
+- **Lack of Focus:** Struggling to maintain focus on high-priority tasks.
+
+#### Preferred Communication Channels
+
+- **Primary Channels:** Email, push notifications, and calendar alerts.
+- **Secondary Channels:** SMS reminders for urgent tasks.
+- **Mobile App Notifications:** Prefers receiving reminders and productivity insights through mobile app notifications.
+- **Instant Messaging:** Uses platforms like Slack or Microsoft Teams for quick communication with colleagues.
+- **Video Conferencing:** For virtual meetings and professional development webinars.
+
+#### Quotes and Insights
+
+- **Quotes:** “I need a tool that not only organizes my tasks but also helps me understand how to be more productive.”
+- **Insights:** “Jamie needs an integrated platform that provides dynamic task management and personalized productivity insights.”
+
+#### Success Criteria
+
+- **Efficiency Gains:** Measurable improvement in task completion rates and better time management.
+- **Stress Reduction:** Personal perception of decreased stress and improved work-life balance.
+- **Skill Enhancement:** Continuous learning and application of new productivity strategies.
+- **Goal Achievement:** Successfully meeting both short-term and long-term goals.
+
+#### How AiDo Helps
+
+- **Dynamic Task Prioritization:** AiDo uses AI to dynamically adjust task priorities based on deadlines, importance, and personal goals.
+- **Personalized Productivity Insights:** Provides insights and recommendations tailored to Jamie’s work habits and patterns.
+- **Integration with Calendars:** Seamless integration with external calendars to consolidate tasks and schedules.
+- **Automated Reminders:** Sends automated reminders for important tasks and deadlines.
+- **Time Management Tools:** Offers tools to track time spent on tasks and improve time estimation.
+- **Focus Mode:** Features a focus mode to help Jamie stay on task and minimize distractions.
+- **Goal Tracking:** Helps Jamie set, track, and achieve their personal and professional goals.
+
+## Comments
+
+For website:
+
+##### Productivity Seekers
+
+**Name:** Jamie Lee
+
+**Goal:** To improve daily productivity and manage tasks more effectively.
+
+**Description:** Individuals aiming to enhance their productivity through better task management and AI-driven insights.
+
+**Challenges:** Prioritizing tasks, avoiding procrastination, and maintaining a consistent work routine.
+
+**How AiDo Helps:** AiDo offers dynamic task prioritization, personalized productivity insights, and integration with external calendars to help productivity seekers manage their tasks efficiently, stay focused, and achieve their goals.
+
+## Title
+
+Student - Taylor Kim
+
+## List Name
+
+Target User Personas
+
+## Labels
+
+- Customer Personas
+
+## Description
+
+##### Student - Taylor Kim
+
+**Age:** 21
+**Gender:** Female
+**Occupation:** College Student
+**Location:** Boston, MA
+**Family:** Single, lives in a dormitory
+
+![Taylor\_Kim.png](https://trello.com/1/cards/6654d739e5b74619a57866d2/attachments/6654dbebce1dcfce49f202e1/download/Taylor_Kim.png)
+
+#### Background
+
+Taylor is a junior at a prestigious university in Boston, majoring in Computer Science with a minor in Psychology. She is an active member of the university's coding club and volunteers as a tutor for underclassmen. Taylor is passionate about her studies and aims to pursue a career in AI research. She balances a rigorous academic schedule with extracurricular activities and social engagements.
+
+#### Personality
+
+- **Curious and Inquisitive:** Taylor loves learning new things and exploring different fields of study.
+- **Organized and Disciplined:** She maintains a structured schedule to manage her coursework and activities.
+- **Collaborative and Social:** Taylor enjoys working on group projects and engaging with her peers in study groups.
+
+#### Motivations and Goals
+
+- **Primary Goal:** Excel academically while maintaining a balanced lifestyle.
+- **Secondary Goals:** Gain practical experience through internships and research opportunities.
+- **Academic Success:** Achieve high grades and understand course material deeply.
+- **Skill Development:** Continuously improve coding skills and explore new technologies.
+- **Career Preparation:** Build a strong foundation for a future career in AI research.
+- **Extracurricular Involvement:** Actively participate in clubs and organizations to broaden her horizons.
+
+#### Behaviors and Patterns
+
+- **Daily Routine:** Taylor starts her day with a review of her schedule, attends classes, participates in club activities, and dedicates evenings to studying and assignments.
+- **Technology Usage:** Heavily relies on her laptop, academic apps, and online resources.
+- **Morning Routine:** Checks her calendar, emails, and course portals for any updates or deadlines.
+- **Task List:** Keeps a detailed list of assignments, project deadlines, and study goals.
+- **Time Blocks:** Allocates specific times for classes, study sessions, and extracurricular activities.
+- **Weekly Planning:** Plans her week on Sunday evenings to ensure she stays on top of her responsibilities.
+
+#### Hobbies and Interests
+
+- **Reading:** Enjoys reading science fiction novels and academic journals.
+- **Coding:** Loves coding projects outside of her coursework, especially in AI and machine learning.
+- **Fitness:** Regularly attends yoga classes and goes for runs to stay active.
+- **Music:** Plays the piano and enjoys attending live music performances.
+
+#### Challenges
+
+- **Time Management:** Balancing a demanding academic schedule with extracurricular activities and personal time.
+- **Procrastination:** Occasionally procrastinates, leading to last-minute stress.
+- **Deadline Pressure:** Managing multiple deadlines and high-pressure assignments.
+- **Distractions:** Staying focused amidst social activities and online distractions.
+- **Work-Life Balance:** Ensuring sufficient time for relaxation and socializing.
+
+#### Pain Points
+
+- **Overwhelm:** Feeling overwhelmed by a heavy workload and tight deadlines.
+- **Fragmented Tools:** Using multiple platforms for different academic tasks and communications.
+- **Prioritization:** Struggling to prioritize tasks effectively, especially during busy periods.
+- **Stress Management:** Dealing with academic stress and maintaining mental well-being.
+- **Communication:** Keeping track of communications with professors, peers, and project groups.
+
+#### Preferred Communication Channels
+
+- **Primary Channels:** Email, academic portals, and calendar alerts.
+- **Secondary Channels:** Instant messaging for quick updates with study groups and project teams.
+- **Mobile App Notifications:** Prefers receiving reminders and updates through mobile app notifications.
+- **Video Conferencing:** Uses Zoom or Microsoft Teams for virtual classes and group study sessions.
+
+#### Quotes and Insights
+
+- **Quotes:** “I need a tool that helps me stay organized and manage my workload efficiently so I can focus on learning and growing.”
+- **Insights:** “Taylor needs a unified platform that integrates academic management tools and offers personalized productivity insights.”
+
+#### Success Criteria
+
+- **Efficiency Gains:** Improved ability to meet deadlines and complete assignments on time.
+- **Stress Reduction:** Reduced stress levels and better management of academic workload.
+- **Academic Achievement:** Higher grades and deeper understanding of course material.
+- **Skill Enhancement:** Continuous improvement in coding and other academic skills.
+- **Balanced Life:** Maintaining a healthy balance between academics, extracurricular activities, and personal time.
+
+#### How AiDo Helps
+
+- **Academic Project Management:** Helps Taylor break down large projects into manageable tasks with deadlines.
+- **Study Schedules:** Provides personalized study schedules and reminders for upcoming exams and assignments.
+- **Productivity Insights:** Offers insights into her productivity patterns and suggestions for improvement.
+- **Integration with Academic Tools:** Seamless integration with university portals, calendar apps, and communication platforms.
+- **Automated Reminders:** Sends automated reminders for assignment deadlines, study sessions, and club meetings.
+- **Focus Mode:** Features a focus mode to help Taylor stay on task and minimize distractions.
+- **Goal Tracking:** Helps Taylor set, track, and achieve her academic and personal goals.
+
+## Comments
+
+For website:
+
+##### Students
+
+**Name:** Taylor Kim
+
+**Goal:** To manage academic tasks and projects efficiently while balancing extracurricular activities.
+
+**Description:** Students and researchers leveraging AiDo for academic task management, project breakdowns, and productivity insights.
+
+**Challenges:** Balancing coursework, extracurricular activities, and personal life; staying organized; and meeting deadlines.
+
+**How AiDo Helps:** AiDo offers academic project management tools, study schedules, and productivity insights to help students stay on track, manage their workload effectively, and achieve academic success.
+
+## Title
+
+Team Leader - Jordan Smith
+
+## List Name
+
+Target User Personas
+
+## Labels
+
+- Customer Personas
+
+## Description
+
+### Team Leader - Jordan Smith
+
+**Age:** 38
+**Gender:** Male
+**Occupation:** Project Manager
+**Location:** Chicago, IL
+**Family:** Married with two children (ages 8 and 10)
+
+![Jordan\_Smith.png](https://trello.com/1/cards/6654d73c4294468f14ab993c/attachments/6654e05c624e40fb10a39cbd/download/Jordan_Smith.png)
+
+#### Background
+
+Jordan has a degree in Business Administration and has been working as a project manager for over 12 years. He specializes in leading cross-functional teams in the tech industry, ensuring that projects are completed on time and within budget. Jordan lives in Chicago with his spouse and two children. He enjoys the challenges of managing diverse teams and is always looking for ways to improve team productivity and project outcomes.
+
+#### Personality
+
+- **Strategic and Visionary:** Jordan excels at planning and seeing the big picture while ensuring all details are covered.
+- **Communicative and Collaborative:** He values open communication and fosters a collaborative environment within his team.
+- **Decisive and Resilient:** Jordan makes quick, informed decisions and stays resilient under pressure.
+
+#### Motivations and Goals
+
+- **Primary Goal:** Successfully manage projects from inception to completion, ensuring they meet or exceed goals.
+- **Secondary Goals:** Enhance team productivity and maintain high morale.
+- **Deliver Successful Projects:** Ensure all projects are delivered on time, within scope, and budget.
+- **Continuous Improvement:** Implement strategies for continuous team and process improvements.
+- **Team Development:** Support the professional growth of team members.
+- **Work-Life Balance:** Manage professional responsibilities efficiently to have quality time with family.
+
+#### Behaviors and Patterns
+
+- **Daily Routine:** Jordan starts his day with a team meeting, reviews project timelines, and addresses any urgent issues.
+- **Technology Usage:** Uses project management software, communication tools, and analytics platforms extensively.
+- **Morning Routine:** Reviews the day's schedule, holds a quick stand-up meeting with the team, and prioritizes tasks.
+- **Task List:** Maintains a detailed list of project milestones, deadlines, and team assignments.
+- **Time Blocks:** Allocates specific times for meetings, project reviews, and strategic planning.
+- **Weekly Check-ins:** Holds weekly progress meetings to ensure projects are on track and to address any roadblocks.
+
+#### Hobbies and Interests
+
+- **Reading:** Enjoys reading business books and management journals.
+- **Fitness:** Regularly goes jogging and practices mindfulness exercises.
+- **Cooking:** Loves experimenting with new recipes and cooking meals for his family.
+- **Volunteering:** Participates in community service projects and mentoring programs.
+
+#### Challenges
+
+- **Time Management:** Balancing multiple projects and ensuring deadlines are met.
+- **Team Coordination:** Managing communication and coordination within a diverse team.
+- **Resource Allocation:** Ensuring optimal use of resources and managing budget constraints.
+- **Conflict Resolution:** Handling conflicts within the team and ensuring a positive work environment.
+- **Work-Life Balance:** Maintaining a balance between professional responsibilities and family time.
+
+#### Pain Points
+
+- **Overwhelm:** Feeling overwhelmed by the volume of tasks and deadlines.
+- **Communication Gaps:** Miscommunication or lack of communication within the team.
+- **Resource Constraints:** Managing projects with limited resources and budget.
+- **Unforeseen Issues:** Dealing with unexpected problems that arise during projects.
+- **Stress:** Handling the high-pressure environment of project management.
+
+#### Preferred Communication Channels
+
+- **Primary Channels:** Email, project management tools, and calendar alerts.
+- **Secondary Channels:** Instant messaging for quick updates and team communication.
+- **Mobile App Notifications:** Prefers receiving reminders and project updates through mobile app notifications.
+- **Video Conferencing:** Uses platforms like Zoom or Microsoft Teams for virtual meetings with team members and stakeholders.
+
+#### Quotes and Insights
+
+- **Quotes:** “I need a tool that helps me keep track of all project details and ensures effective team collaboration.”
+- **Insights:** “Jordan needs a comprehensive platform that integrates project management, communication, and productivity tools.”
+
+#### Success Criteria
+
+- **Efficiency Gains:** Improved ability to meet project deadlines and manage resources effectively.
+- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
+- **Team Satisfaction:** Positive feedback from team members and high team morale.
+- **Project Success:** Successfully completed projects without significant issues or delays.
+
+#### How AiDo Helps
+
+- **Project Management Tools:** Provides comprehensive tools for planning, tracking, and managing projects.
+- **Collaborative Features:** Offers easy sharing and collaboration tools for team communication and coordination.
+- **Automated Reminders:** Sends automated reminders for project deadlines, meetings, and milestones.
+- **Integration Capabilities:** Seamless integration with other commonly used tools and platforms, like Microsoft Project, Slack, and CRM systems.
+- **Customization:** Customizable templates and workflows to cater to different types of projects.
+- **Real-Time Updates:** Real-time updates and syncing across all devices to ensure the latest information is always accessible.
+- **Resource Management:** Tools for tracking and managing project resources, including budgeting and expense tracking.
+
+## Comments
+
+For website:
+
+##### Team Leaders
+
+**Name:** Jordan Smith
+
+**Goal:** To efficiently manage projects and teams, ensuring productivity and successful outcomes.
+
+**Description:** Leaders and managers utilizing AiDo for project oversight, team management, and productivity optimization.
+
+**Challenges:** Balancing multiple projects, ensuring clear communication within the team, and meeting project deadlines.
+
+**How AiDo Helps:** AiDo offers project management tools, collaborative features, and productivity insights to help team leaders manage their teams effectively, track progress, and achieve project goals.
+
+# TEAM
+
+## Title
+
 Chief Executive Officer - Jasper Bell
 
 ## List Name
@@ -3315,790 +4114,3 @@ Mimic natural speech patterns with thoughtful pauses and a relaxed pace to enhan
 Choose language and words carefully. Avoid complex jargon and casual slang, aiming for simplicity and insightfulness. Use a first-person perspective and avoid words like "akin," "realm," and "delve" to keep the tone genuine and authentic.
 
 Pay attention to word frequency. Monitor standard terms like "the," "it," and "is" to match natural human patterns, reducing repetitiveness and improving readability. This thoughtful approach ensures word frequency enhances the content's flow and natural feel.
-
-## Title
-
-AiDo Website - Landing Page
-
-## List Name
-
-Product
-
-## Labels
-
-- Website
-
-## Description
-
-[https://sites.google.com/view/ai-todo/aido](https://sites.google.com/view/ai-todo/aido "smartCard-inline")
-
-Welcome to AiDo, your personal AI task manager. Our landing page showcases how AiDo leverages advanced AI to enhance productivity through smart task analysis, dynamic prioritization, and seamless integration with your favorite apps. Discover user testimonials, key features, and the benefits of joining our beta program to revolutionize your task management. Contact us to learn more about how AiDo can transform your productivity.
-
-![image.png](https://trello.com/1/cards/664eb8e1b2e470a29a07d368/attachments/664eb95e2915c19a079f064e/download/image.png)
-
-## Title
-
-AiDo Website - Product Description
-
-## List Name
-
-Product
-
-## Labels
-
-- Website
-
-## Description
-
-[https://sites.google.com/view/ai-todo/aido/product-description](https://sites.google.com/view/ai-todo/aido/product-description "smartCard-inline")
-
-![image.png](https://trello.com/1/cards/664eb9e82a73fc92af1edb3b/attachments/664eb9f2c2c22641220c9223/download/image.png)
-
-## Title
-
-AiDo Website - Who We Are
-
-## List Name
-
-Product
-
-## Labels
-
-- Website
-
-## Description
-
-[https://sites.google.com/view/ai-todo/aido/who-we-are](https://sites.google.com/view/ai-todo/aido/who-we-are "smartCard-inline")
-
-Our "Who We Are" page introduces the passionate professionals behind AiDo, showcasing their expertise and dedication to enhancing productivity through cutting-edge AI technology. Meet our leadership team, including CEO Jasper Bell, who integrates AI with task management; Chief Strategy Officer Elena Myles, who drives our strategic direction with her deep market insights; and Chief Marketing Officer Jordan Taylor, who leads our marketing strategies with a focus on innovation. Learn about their backgrounds, roles, and how they steer AiDo toward revolutionizing task management. Join our beta program to experience AiDo's AI-driven productivity enhancements. Contact us to discover more about how AiDo can transform your productivity.
-
-## Title
-
-AiDo Website - Who Uses AiDo
-
-## List Name
-
-Product
-
-## Description
-
-[https://sites.google.com/view/ai-todo/aido/who-uses-aido](https://sites.google.com/view/ai-todo/aido/who-uses-aido "smartCard-inline")
-
-## Title
-
-Busy Parent - Sarah Thompson
-
-## List Name
-
-Target User Personas
-
-## Labels
-
-- Customer Personas
-
-## Description
-
-### Busy Parent - Sarah Thompson
-
-**Age:** 38
-**Gender:** Female
-**Occupation:** Marketing Manager
-**Location:** Chicago, IL
-**Family:** Married with two children (ages 6 and 10)
-
-![Sarah\_Thompson.png](https://trello.com/1/cards/6654cb3193277a7afa412ff8/attachments/6654cb885c7772f96a4a2397/download/Sarah_Thompson.png)
-
-#### Background
-
-Sarah is a seasoned marketing manager with over 15 years of experience, living in Chicago with her husband and two young children. She has a bachelor’s degree in Business Administration and balances a demanding career with a bustling family life. Sarah is responsible for managing marketing campaigns, coordinating teams, and meeting tight deadlines at work, while also handling household chores and her children's schedules at home. Despite her proficiency with productivity tools, she often feels overwhelmed by the sheer volume of tasks.
-
-#### Personality
-
-- **Organized and Multi-tasker:** Likes to keep things structured and is adept at juggling multiple responsibilities.
-- **Empathetic and Adaptable:** Cares deeply about her family's needs and quickly adapts to changing situations.
-- **Perfectionist:** Strives for excellence in both professional and personal life.
-
-#### Motivations and Goals
-
-- **Primary Goal:** Efficiently manage household and work tasks to reduce stress and improve family coordination.
-- **Secondary Goals:** Find time for personal hobbies, ensure children are engaged in productive activities, maintain a healthy work-life balance.
-- **Achieve Work-Life Balance:** Manage professional duties efficiently while being present for her family.
-- **Stay Organized:** Keep track of household chores, children's schedules, and work tasks in an organized manner.
-- **Increase Productivity:** Maximize productivity during work hours to have quality time with family.
-- **Ensure Family Well-being:** Meet family needs and maintain a well-coordinated schedule.
-
-#### Behaviors and Patterns
-
-- **Daily Routine:** Starts her day with a quick check of her calendar and task list, handles work emails and meetings in the morning, switches to household tasks in the afternoon, and spends the evening with her family.
-- **Technology Usage:** Uses her smartphone for quick task updates and reminders throughout the day and her laptop for more detailed planning in the morning and evening.
-- **Morning Routine:** Starts her day early to prepare for work and get her children ready for school.
-- **Task List:** Maintains a detailed to-do list to keep track of daily tasks.
-- **Time Blocks:** Uses time blocking to allocate specific periods for work, family time, and personal activities.
-- **Family Meetings:** Holds weekly family meetings to coordinate schedules and discuss plans.
-
-#### Hobbies and Interests
-
-- **Cooking:** Enjoys experimenting with new recipes and cooking meals for her family.
-- **Reading:** Loves reading mystery novels to unwind.
-- **Volunteering:** Actively volunteers at her children's school and in the community.
-- **Yoga:** Practices yoga to relax and maintain physical fitness.
-
-#### Challenges
-
-- **Time Management:** Balancing work deadlines with family responsibilities is a constant struggle.
-- **Overwhelm:** The sheer number of tasks and responsibilities often feels overwhelming.
-- **Task Coordination:** Keeping track of everyone's schedules and ensuring all tasks are completed on time.
-- **Maintaining Efficiency:** Finding ways to work efficiently and reduce time spent on mundane tasks.
-
-#### Pain Points
-
-- **Stress from Overload:** Frequent feeling of being overwhelmed by the sheer volume of tasks.
-- **Fragmented Tools:** Frustration with juggling multiple apps and tools for different tasks.
-- **Coordination Issues:** Challenges in ensuring all family members are on the same page regarding schedules and responsibilities.
-- **Forgetfulness:** Missing important tasks or appointments due to the volume of responsibilities.
-- **Inefficiency:** Spending too much time on task management rather than completing tasks.
-- **Stress and Burnout:** Feeling stressed and burnt out due to the constant juggling of work and family duties.
-
-#### Preferred Communication Channels
-
-- **Primary Channels:** Email, push notifications, and calendar alerts.
-- **Secondary Channels:** SMS reminders for urgent tasks or notifications.
-- **Mobile App Notifications:** Prefers receiving reminders and alerts through mobile app notifications.
-- **Text Messages:** For quick and immediate communication with family and close contacts.
-
-#### Quotes and Insights
-
-- **Quotes:** “I often feel like I’m juggling too many things at once.”
-- **Insights:** “Sarah needs a centralized tool that integrates seamlessly with her existing apps.”
-
-#### Success Criteria
-
-- **Efficiency Gains:** Measurable improvement in task completion rates and reduced time spent managing tasks.
-- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
-- **Family Coordination:** Improved family schedule alignment and fewer missed appointments or deadlines.
-
-#### How AiDo Helps
-
-- **Shared Calendars:** Syncs family schedules, helping Sarah and her husband coordinate more effectively and avoid scheduling conflicts.
-- **Location-Based Notifications:** Reminds her of tasks like grocery shopping or picking up dry cleaning when she’s near relevant locations.
-- **Smart Task Analysis:** Prioritizes tasks and provides timely reminders, ensuring nothing important is overlooked.
-- **Collaborative Features:** Allows her to assign tasks to family members, track their progress, and ensure everyone contributes to household responsibilities.
-
-## Comments
-
-For website:
-
-Busy Parents
-
-**Name:** Sarah Thompson
-
-**Goal:** To manage household tasks and family activities efficiently.
-
-**Description:** Parents and caregivers manage household tasks, shopping lists, and family activities.
-
-**Challenges:** Juggling multiple responsibilities, staying organized, and ensuring timely completion of tasks.
-
-**How AiDo Helps:** AiDo offers shared calendars, location-based notifications, and smart task analysis to help busy parents manage their daily tasks and coordinate effectively with family members.
-
-## Title
-
-Event Planner - Olivia Martinez
-
-## List Name
-
-Target User Personas
-
-## Labels
-
-- Customer Personas
-
-## Description
-
-### Event Planner - Olivia Martinez
-
-**Age:** 35
-**Gender:** Female
-**Occupation:** Senior Event Planner
-**Location:** New York City, NY
-**Family:** Married with two children (ages 5 and 7)
-
-![Olivia\_Martinez.png](https://trello.com/1/cards/6654cbd4aad445303962716e/attachments/6654d4bb734cd414cf00bbe5/download/Olivia_Martinez.png)
-
-#### Background
-
-Olivia has a degree in Hospitality Management and has been working in the event planning industry for over 10 years. She specializes in corporate events but also handles weddings and private parties. Olivia lives in New York City with her husband and two young children. She balances a demanding career with a busy family life, managing to excel in both professional and personal spheres.
-
-#### Personality
-
-- **Highly Organized and Detail-Oriented:** Olivia excels at keeping everything structured and ensures every detail is meticulously planned.
-- **Proactive and Adaptable:** She anticipates potential issues and adapts quickly to changing circumstances.
-- **Creative and Communicative:** Olivia loves bringing innovative ideas to her events and communicates effectively with clients and vendors.
-
-#### Motivations and Goals
-
-- **Primary Goal:** Streamline event planning processes to save time and increase efficiency.
-- **Secondary Goals:** Enhance client satisfaction through meticulous planning and flawless execution. Keep up with industry trends and incorporate innovative ideas into events.
-- **Deliver Successful Events:** Ensure every event is a success, exceeding client expectations.
-- **Stay Current:** Keep up-to-date with the latest trends and technologies in event planning.
-- **Improve Work-Life Balance:** Manage professional duties efficiently to spend quality time with family.
-- **Boost Efficiency:** Implement tools and strategies that increase productivity and reduce stress.
-
-#### Behaviors and Patterns
-
-- **Daily Routine:** Olivia starts her day early with a check of her calendar and task list, handles client meetings and vendor coordination throughout the day, and uses evenings for detailed planning and follow-ups.
-- **Technology Usage:** Utilizes her smartphone and laptop extensively, relying on apps for scheduling, budgeting, and communication.
-- **Morning Routine:** Reviews her schedule and priorities, holds a quick team meeting, and responds to urgent emails.
-- **Task List:** Maintains a detailed to-do list for daily tasks and event-specific responsibilities.
-- **Time Blocks:** Allocates specific periods for client meetings, vendor coordination, and event design.
-- **Weekly Check-ins:** Holds weekly meetings with her team to ensure all tasks are on track.
-
-#### Hobbies and Interests
-
-- **Reading:** Enjoys staying informed about the latest trends in event planning and reading fiction to unwind.
-- **Cooking:** Loves experimenting with new recipes and cooking meals for her family.
-- **Exploring Venues:** Frequently explores new restaurants and venues for potential event locations.
-- **Volunteering:** Actively participates in local charity events and community activities.
-
-#### Challenges
-
-- **Time Management:** Balancing multiple events at different stages of planning simultaneously.
-- **Coordination:** Managing communications and schedules with various vendors, clients, and team members.
-- **Detail Management:** Keeping track of numerous details, from budget constraints to vendor contracts and client preferences.
-- **Stress:** Handling the high-pressure environment of event planning, particularly when unforeseen issues arise.
-
-#### Pain Points
-
-- **Overwhelm:** Managing too many details and deadlines across multiple events.
-- **Communication Gaps:** Miscommunication with clients and vendors due to fragmented communication channels.
-- **Budget Management:** Keeping track of expenses and staying within budget constraints.
-- **Unexpected Issues:** Dealing with last-minute changes or problems that arise during events.
-- **Fragmented Tools:** Frustration with juggling multiple apps and tools for different tasks.
-- **Forgetfulness:** Missing important tasks or appointments due to the volume of responsibilities.
-
-#### Preferred Communication Channels
-
-- **Primary Channels:** Email, push notifications, and calendar alerts.
-- **Secondary Channels:** SMS reminders for urgent tasks or notifications.
-- **Mobile App Notifications:** Prefers receiving reminders and alerts through mobile app notifications.
-- **Instant Messaging:** Uses platforms like Slack or WhatsApp for quick communication with her team.
-- **Video Conferencing:** For virtual meetings with clients and remote vendors.
-
-#### Quotes and Insights
-
-- **Quotes:** “There’s always so much to juggle, and I can’t afford to miss a single detail.”
-- **Insights:** “Olivia needs a centralized tool that integrates seamlessly with her existing apps to keep everything organized and efficient.”
-
-#### Success Criteria
-
-- **Efficiency Gains:** Measurable improvement in task completion rates and reduced time spent managing tasks.
-- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
-- **Client Satisfaction:** Positive feedback from clients and repeat business.
-- **Event Success:** Smoothly executed events without significant issues or delays.
-
-#### How AiDo Helps
-
-- **Comprehensive Task Management:** Ability to create and manage detailed task lists, with deadlines and priority levels.
-- **Collaborative Features:** Easy sharing and collaboration tools for working with team members and vendors.
-- **Automated Reminders:** Automated reminders and notifications for important deadlines and meetings.
-- **Integration Capabilities:** Seamless integration with other commonly used tools and platforms, like Google Calendar, Trello, and CRM systems.
-- **Customization:** Customizable templates and workflows to cater to different types of events.
-- **Real-Time Updates:** Real-time updates and syncing across all devices to ensure the latest information is always accessible.
-- **Budget Tracking:** Tools for tracking and managing event budgets, including expense tracking and financial reporting.
-
-## Comments
-
-For the website:
-
-**Event Planners**
-
-**Name:** Olivia Martinez
-
-**Goal:** To streamline event planning processes and ensure successful event execution.
-
-**Description:** Event planners manage all aspects of events, including client meetings, vendor coordination, budget management, and detailed planning.
-
-**Challenges:** Balancing multiple events, managing communications with vendors and clients, keeping track of numerous details, and handling high-pressure situations.
-
-**How AiDo Helps:** AiDo provides comprehensive task management, collaborative features, automated reminders, integration capabilities, customizable templates, real-time updates, and budget tracking to help event planners streamline their workflow, enhance productivity, and deliver successful events.
-
-## Title
-
-Freelancer - Alex Johnson
-
-## List Name
-
-Target User Personas
-
-## Labels
-
-- Customer Personas
-
-## Description
-
-### Freelancer - Alex Johnson
-
-**Age:** 29
-**Gender:** Male
-**Occupation:** Freelance Graphic Designer
-**Location:** Austin, TX
-**Family:** Single, lives with a roommate
-
-![Alex\_Johnson.png](https://trello.com/1/cards/6654d732698c5227e5659779/attachments/6654da8c988ffa41c3e72157/download/Alex_Johnson.png)
-
-#### Background
-
-Alex holds a degree in Graphic Design and has been freelancing for the past five years. He specializes in branding and web design for small to medium-sized businesses. Alex lives in Austin, where he enjoys the vibrant creative community and the flexibility of his freelance lifestyle. He manages a diverse client portfolio, juggling multiple projects simultaneously.
-
-#### Personality
-
-- **Creative and Innovative:** Alex thrives on creating visually compelling designs and constantly seeks out new design trends.
-- **Self-Motivated and Independent:** He works best on his own schedule and takes initiative to find new clients and projects.
-- **Detail-Oriented and Meticulous:** Alex pays close attention to design details, ensuring high-quality work for his clients.
-
-#### Motivations and Goals
-
-- **Primary Goal:** Streamline project management to maximize productivity and deliver high-quality designs on time.
-- **Secondary Goals:** Expand his client base and improve his professional skills through continuous learning.
-- **Achieve Client Satisfaction:** Deliver exceptional designs that exceed client expectations.
-- **Stay Competitive:** Keep up-to-date with the latest design tools and trends.
-- **Optimize Workflow:** Implement tools and strategies that help manage time and tasks efficiently.
-- **Maintain Work-Life Balance:** Ensure time for personal interests and relaxation despite a busy work schedule.
-
-#### Behaviors and Patterns
-
-- **Daily Routine:** Alex begins his day by reviewing his task list and emails, then focuses on design work, client meetings, and project revisions throughout the day.
-- **Technology Usage:** He relies heavily on his laptop, graphic design software, and project management apps.
-- **Morning Routine:** Checks emails, reviews his task list, and sets priorities for the day.
-- **Task List:** Maintains a detailed to-do list for client projects, deadlines, and personal tasks.
-- **Time Blocks:** Allocates specific time slots for design work, client communication, and administrative tasks.
-- **Weekly Planning:** Plans his week ahead every Sunday to ensure a balanced workflow and timely project delivery.
-
-#### Hobbies and Interests
-
-- **Photography:** Enjoys capturing landscapes and urban scenes in his spare time.
-- **Reading:** Likes reading design blogs, technology news, and science fiction novels.
-- **Traveling:** Loves exploring new cities and gaining inspiration from different cultures.
-- **Music:** Plays guitar and enjoys attending live music events.
-
-#### Challenges
-
-- **Time Management:** Balancing multiple projects and deadlines effectively.
-- **Client Communication:** Ensuring clear and timely communication with clients to avoid misunderstandings.
-- **Isolation:** Managing the potential loneliness of working solo and missing out on team collaboration.
-- **Invoicing and Payments:** Keeping track of invoices and ensuring timely payment from clients.
-- **Self-Promotion:** Continuously marketing his services to attract new clients.
-
-#### Pain Points
-
-- **Overwhelm:** Feeling overwhelmed by the volume of tasks and deadlines.
-- **Fragmented Tools:** Juggling multiple apps and tools for different aspects of his work.
-- **Client Expectations:** Managing client expectations and revisions without compromising on deadlines.
-- **Distractions:** Staying focused and avoiding distractions while working from home.
-- **Work-Life Balance:** Ensuring time for personal interests and relaxation amidst a busy work schedule.
-
-#### Preferred Communication Channels
-
-- **Primary Channels:** Email, project management tools, and calendar alerts.
-- **Secondary Channels:** Instant messaging for quick client updates.
-- **Mobile App Notifications:** Prefers receiving task reminders and project updates through mobile notifications.
-- **Video Conferencing:** Uses Zoom or Skype for client meetings and presentations.
-
-#### Quotes and Insights
-
-- **Quotes:** “I need a tool that helps me keep all my projects organized and ensures I never miss a deadline.”
-- **Insights:** “Alex needs a centralized platform that integrates with his design tools and streamlines project management.”
-
-#### Success Criteria
-
-- **Efficiency Gains:** Measurable improvement in project completion rates and reduced time spent on administrative tasks.
-- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
-- **Client Satisfaction:** Positive feedback from clients and repeat business.
-- **Project Success:** Successfully delivered projects without significant delays or quality issues.
-
-#### How AiDo Helps
-
-- **Comprehensive Task Management:** Ability to create and manage detailed task lists, with deadlines and priority levels.
-- **Collaborative Features:** Easy sharing and collaboration tools for working with clients and other freelancers.
-- **Automated Reminders:** Automated reminders and notifications for important deadlines and meetings.
-- **Integration Capabilities:** Seamless integration with design tools like Adobe Creative Suite, Trello, and invoicing systems.
-- **Customization:** Customizable templates and workflows to cater to different types of design projects.
-- **Real-Time Updates:** Real-time updates and syncing across all devices to ensure the latest information is always accessible.
-- **Budget Tracking:** Tools for tracking project budgets, including expense tracking and financial reporting.
-
-## Comments
-
-For website:
-
-##### Freelancers
-
-**Name:** Alex Johnson
-
-**Goal:** To streamline project management and maximize productivity.
-
-**Description:** Freelance graphic designers manage multiple clients and projects efficiently.
-
-**Challenges:** Balancing multiple projects and deadlines, ensuring clear client communication, and managing invoicing and payments.
-
-**How AiDo Helps:** AiDo offers comprehensive task management, automated reminders, and seamless integration with design tools to help freelancers stay organized, meet deadlines, and deliver high-quality work to clients.
-
-## Title
-
-Productivity Seeker - Jamie Lee
-
-## List Name
-
-Target User Personas
-
-## Labels
-
-- Customer Personas
-
-## Description
-
-### Productivity Seeker - Jamie Lee
-
-**Age:** 26
-**Gender:** Non-binary
-**Occupation:** Marketing Specialist
-**Location:** San Francisco, CA
-**Family:** Single, lives alone
-
-![Jamie\_Lee.png](https://trello.com/1/cards/6654d73727dea9165fb74804/attachments/6654db10da72dd527e6ef4fd/download/Jamie_Lee.png)
-
-#### Background
-
-Jamie has a degree in Marketing and works as a marketing specialist for a tech startup. They are passionate about personal development and productivity optimization. Living in San Francisco, Jamie enjoys the city's innovative atmosphere and is always looking for ways to improve their efficiency and effectiveness both professionally and personally.
-
-#### Personality
-
-- **Ambitious and Goal-Oriented:** Jamie is driven to achieve their goals and constantly seeks self-improvement.
-- **Curious and Analytical:** They enjoy exploring new productivity techniques and tools, analyzing what works best.
-- **Disciplined and Focused:** Jamie is committed to maintaining a structured routine and staying on top of their tasks.
-
-#### Motivations and Goals
-
-- **Primary Goal:** Improve daily productivity and achieve a better work-life balance.
-- **Secondary Goals:** Enhance professional skills and advance in their career.
-- **Achieve Efficiency:** Optimize task management to save time and reduce stress.
-- **Personal Growth:** Continuously learn and apply new productivity strategies.
-- **Balance Life:** Maintain a healthy balance between work and personal life.
-- **Stay Organized:** Keep all tasks and goals clearly outlined and prioritized.
-
-#### Behaviors and Patterns
-
-- **Daily Routine:** Jamie starts their day with a morning routine that includes reviewing their task list, setting priorities, and planning their day.
-- **Technology Usage:** Uses a variety of productivity apps and tools on their smartphone and laptop.
-- **Morning Routine:** Includes meditation, a healthy breakfast, and a review of their daily goals and tasks.
-- **Task List:** Maintains a comprehensive to-do list that covers both work-related and personal tasks.
-- **Time Blocks:** Allocates specific times for focused work, meetings, and breaks to ensure productivity.
-- **Weekly Review:** Reflects on the past week's achievements and sets goals for the upcoming week every Sunday.
-
-#### Hobbies and Interests
-
-- **Reading:** Enjoys reading self-help books and productivity blogs.
-- **Fitness:** Regularly works out and practices yoga to stay fit and focused.
-- **Tech Enthusiast:** Loves trying out new gadgets and apps that can enhance productivity.
-- **Traveling:** Enjoys exploring new places and cultures, often seeking inspiration for personal growth.
-
-#### Challenges
-
-- **Prioritization:** Struggles with prioritizing tasks effectively and sometimes overcommits.
-- **Procrastination:** Occasionally falls into the trap of procrastination, impacting productivity.
-- **Consistency:** Maintaining a consistent work routine, especially during busy periods.
-- **Distractions:** Managing distractions from social media and other non-essential activities.
-- **Work-Life Balance:** Ensuring sufficient time for relaxation and personal interests.
-
-#### Pain Points
-
-- **Overwhelm:** Feeling overwhelmed by a long list of tasks and deadlines.
-- **Fragmented Tools:** Using multiple apps and tools without a unified system.
-- **Time Management:** Difficulty in accurately estimating the time required for tasks.
-- **Burnout:** Risk of burnout due to overworking and insufficient breaks.
-- **Lack of Focus:** Struggling to maintain focus on high-priority tasks.
-
-#### Preferred Communication Channels
-
-- **Primary Channels:** Email, push notifications, and calendar alerts.
-- **Secondary Channels:** SMS reminders for urgent tasks.
-- **Mobile App Notifications:** Prefers receiving reminders and productivity insights through mobile app notifications.
-- **Instant Messaging:** Uses platforms like Slack or Microsoft Teams for quick communication with colleagues.
-- **Video Conferencing:** For virtual meetings and professional development webinars.
-
-#### Quotes and Insights
-
-- **Quotes:** “I need a tool that not only organizes my tasks but also helps me understand how to be more productive.”
-- **Insights:** “Jamie needs an integrated platform that provides dynamic task management and personalized productivity insights.”
-
-#### Success Criteria
-
-- **Efficiency Gains:** Measurable improvement in task completion rates and better time management.
-- **Stress Reduction:** Personal perception of decreased stress and improved work-life balance.
-- **Skill Enhancement:** Continuous learning and application of new productivity strategies.
-- **Goal Achievement:** Successfully meeting both short-term and long-term goals.
-
-#### How AiDo Helps
-
-- **Dynamic Task Prioritization:** AiDo uses AI to dynamically adjust task priorities based on deadlines, importance, and personal goals.
-- **Personalized Productivity Insights:** Provides insights and recommendations tailored to Jamie’s work habits and patterns.
-- **Integration with Calendars:** Seamless integration with external calendars to consolidate tasks and schedules.
-- **Automated Reminders:** Sends automated reminders for important tasks and deadlines.
-- **Time Management Tools:** Offers tools to track time spent on tasks and improve time estimation.
-- **Focus Mode:** Features a focus mode to help Jamie stay on task and minimize distractions.
-- **Goal Tracking:** Helps Jamie set, track, and achieve their personal and professional goals.
-
-## Comments
-
-For website:
-
-##### Productivity Seekers
-
-**Name:** Jamie Lee
-
-**Goal:** To improve daily productivity and manage tasks more effectively.
-
-**Description:** Individuals aiming to enhance their productivity through better task management and AI-driven insights.
-
-**Challenges:** Prioritizing tasks, avoiding procrastination, and maintaining a consistent work routine.
-
-**How AiDo Helps:** AiDo offers dynamic task prioritization, personalized productivity insights, and integration with external calendars to help productivity seekers manage their tasks efficiently, stay focused, and achieve their goals.
-
-## Title
-
-Student - Taylor Kim
-
-## List Name
-
-Target User Personas
-
-## Labels
-
-- Customer Personas
-
-## Description
-
-##### Student - Taylor Kim
-
-**Age:** 21
-**Gender:** Female
-**Occupation:** College Student
-**Location:** Boston, MA
-**Family:** Single, lives in a dormitory
-
-![Taylor\_Kim.png](https://trello.com/1/cards/6654d739e5b74619a57866d2/attachments/6654dbebce1dcfce49f202e1/download/Taylor_Kim.png)
-
-#### Background
-
-Taylor is a junior at a prestigious university in Boston, majoring in Computer Science with a minor in Psychology. She is an active member of the university's coding club and volunteers as a tutor for underclassmen. Taylor is passionate about her studies and aims to pursue a career in AI research. She balances a rigorous academic schedule with extracurricular activities and social engagements.
-
-#### Personality
-
-- **Curious and Inquisitive:** Taylor loves learning new things and exploring different fields of study.
-- **Organized and Disciplined:** She maintains a structured schedule to manage her coursework and activities.
-- **Collaborative and Social:** Taylor enjoys working on group projects and engaging with her peers in study groups.
-
-#### Motivations and Goals
-
-- **Primary Goal:** Excel academically while maintaining a balanced lifestyle.
-- **Secondary Goals:** Gain practical experience through internships and research opportunities.
-- **Academic Success:** Achieve high grades and understand course material deeply.
-- **Skill Development:** Continuously improve coding skills and explore new technologies.
-- **Career Preparation:** Build a strong foundation for a future career in AI research.
-- **Extracurricular Involvement:** Actively participate in clubs and organizations to broaden her horizons.
-
-#### Behaviors and Patterns
-
-- **Daily Routine:** Taylor starts her day with a review of her schedule, attends classes, participates in club activities, and dedicates evenings to studying and assignments.
-- **Technology Usage:** Heavily relies on her laptop, academic apps, and online resources.
-- **Morning Routine:** Checks her calendar, emails, and course portals for any updates or deadlines.
-- **Task List:** Keeps a detailed list of assignments, project deadlines, and study goals.
-- **Time Blocks:** Allocates specific times for classes, study sessions, and extracurricular activities.
-- **Weekly Planning:** Plans her week on Sunday evenings to ensure she stays on top of her responsibilities.
-
-#### Hobbies and Interests
-
-- **Reading:** Enjoys reading science fiction novels and academic journals.
-- **Coding:** Loves coding projects outside of her coursework, especially in AI and machine learning.
-- **Fitness:** Regularly attends yoga classes and goes for runs to stay active.
-- **Music:** Plays the piano and enjoys attending live music performances.
-
-#### Challenges
-
-- **Time Management:** Balancing a demanding academic schedule with extracurricular activities and personal time.
-- **Procrastination:** Occasionally procrastinates, leading to last-minute stress.
-- **Deadline Pressure:** Managing multiple deadlines and high-pressure assignments.
-- **Distractions:** Staying focused amidst social activities and online distractions.
-- **Work-Life Balance:** Ensuring sufficient time for relaxation and socializing.
-
-#### Pain Points
-
-- **Overwhelm:** Feeling overwhelmed by a heavy workload and tight deadlines.
-- **Fragmented Tools:** Using multiple platforms for different academic tasks and communications.
-- **Prioritization:** Struggling to prioritize tasks effectively, especially during busy periods.
-- **Stress Management:** Dealing with academic stress and maintaining mental well-being.
-- **Communication:** Keeping track of communications with professors, peers, and project groups.
-
-#### Preferred Communication Channels
-
-- **Primary Channels:** Email, academic portals, and calendar alerts.
-- **Secondary Channels:** Instant messaging for quick updates with study groups and project teams.
-- **Mobile App Notifications:** Prefers receiving reminders and updates through mobile app notifications.
-- **Video Conferencing:** Uses Zoom or Microsoft Teams for virtual classes and group study sessions.
-
-#### Quotes and Insights
-
-- **Quotes:** “I need a tool that helps me stay organized and manage my workload efficiently so I can focus on learning and growing.”
-- **Insights:** “Taylor needs a unified platform that integrates academic management tools and offers personalized productivity insights.”
-
-#### Success Criteria
-
-- **Efficiency Gains:** Improved ability to meet deadlines and complete assignments on time.
-- **Stress Reduction:** Reduced stress levels and better management of academic workload.
-- **Academic Achievement:** Higher grades and deeper understanding of course material.
-- **Skill Enhancement:** Continuous improvement in coding and other academic skills.
-- **Balanced Life:** Maintaining a healthy balance between academics, extracurricular activities, and personal time.
-
-#### How AiDo Helps
-
-- **Academic Project Management:** Helps Taylor break down large projects into manageable tasks with deadlines.
-- **Study Schedules:** Provides personalized study schedules and reminders for upcoming exams and assignments.
-- **Productivity Insights:** Offers insights into her productivity patterns and suggestions for improvement.
-- **Integration with Academic Tools:** Seamless integration with university portals, calendar apps, and communication platforms.
-- **Automated Reminders:** Sends automated reminders for assignment deadlines, study sessions, and club meetings.
-- **Focus Mode:** Features a focus mode to help Taylor stay on task and minimize distractions.
-- **Goal Tracking:** Helps Taylor set, track, and achieve her academic and personal goals.
-
-## Comments
-
-For website:
-
-##### Students
-
-**Name:** Taylor Kim
-
-**Goal:** To manage academic tasks and projects efficiently while balancing extracurricular activities.
-
-**Description:** Students and researchers leveraging AiDo for academic task management, project breakdowns, and productivity insights.
-
-**Challenges:** Balancing coursework, extracurricular activities, and personal life; staying organized; and meeting deadlines.
-
-**How AiDo Helps:** AiDo offers academic project management tools, study schedules, and productivity insights to help students stay on track, manage their workload effectively, and achieve academic success.
-
-## Title
-
-Team Leader - Jordan Smith
-
-## List Name
-
-Target User Personas
-
-## Labels
-
-- Customer Personas
-
-## Description
-
-### Team Leader - Jordan Smith
-
-**Age:** 38
-**Gender:** Male
-**Occupation:** Project Manager
-**Location:** Chicago, IL
-**Family:** Married with two children (ages 8 and 10)
-
-![Jordan\_Smith.png](https://trello.com/1/cards/6654d73c4294468f14ab993c/attachments/6654e05c624e40fb10a39cbd/download/Jordan_Smith.png)
-
-#### Background
-
-Jordan has a degree in Business Administration and has been working as a project manager for over 12 years. He specializes in leading cross-functional teams in the tech industry, ensuring that projects are completed on time and within budget. Jordan lives in Chicago with his spouse and two children. He enjoys the challenges of managing diverse teams and is always looking for ways to improve team productivity and project outcomes.
-
-#### Personality
-
-- **Strategic and Visionary:** Jordan excels at planning and seeing the big picture while ensuring all details are covered.
-- **Communicative and Collaborative:** He values open communication and fosters a collaborative environment within his team.
-- **Decisive and Resilient:** Jordan makes quick, informed decisions and stays resilient under pressure.
-
-#### Motivations and Goals
-
-- **Primary Goal:** Successfully manage projects from inception to completion, ensuring they meet or exceed goals.
-- **Secondary Goals:** Enhance team productivity and maintain high morale.
-- **Deliver Successful Projects:** Ensure all projects are delivered on time, within scope, and budget.
-- **Continuous Improvement:** Implement strategies for continuous team and process improvements.
-- **Team Development:** Support the professional growth of team members.
-- **Work-Life Balance:** Manage professional responsibilities efficiently to have quality time with family.
-
-#### Behaviors and Patterns
-
-- **Daily Routine:** Jordan starts his day with a team meeting, reviews project timelines, and addresses any urgent issues.
-- **Technology Usage:** Uses project management software, communication tools, and analytics platforms extensively.
-- **Morning Routine:** Reviews the day's schedule, holds a quick stand-up meeting with the team, and prioritizes tasks.
-- **Task List:** Maintains a detailed list of project milestones, deadlines, and team assignments.
-- **Time Blocks:** Allocates specific times for meetings, project reviews, and strategic planning.
-- **Weekly Check-ins:** Holds weekly progress meetings to ensure projects are on track and to address any roadblocks.
-
-#### Hobbies and Interests
-
-- **Reading:** Enjoys reading business books and management journals.
-- **Fitness:** Regularly goes jogging and practices mindfulness exercises.
-- **Cooking:** Loves experimenting with new recipes and cooking meals for his family.
-- **Volunteering:** Participates in community service projects and mentoring programs.
-
-#### Challenges
-
-- **Time Management:** Balancing multiple projects and ensuring deadlines are met.
-- **Team Coordination:** Managing communication and coordination within a diverse team.
-- **Resource Allocation:** Ensuring optimal use of resources and managing budget constraints.
-- **Conflict Resolution:** Handling conflicts within the team and ensuring a positive work environment.
-- **Work-Life Balance:** Maintaining a balance between professional responsibilities and family time.
-
-#### Pain Points
-
-- **Overwhelm:** Feeling overwhelmed by the volume of tasks and deadlines.
-- **Communication Gaps:** Miscommunication or lack of communication within the team.
-- **Resource Constraints:** Managing projects with limited resources and budget.
-- **Unforeseen Issues:** Dealing with unexpected problems that arise during projects.
-- **Stress:** Handling the high-pressure environment of project management.
-
-#### Preferred Communication Channels
-
-- **Primary Channels:** Email, project management tools, and calendar alerts.
-- **Secondary Channels:** Instant messaging for quick updates and team communication.
-- **Mobile App Notifications:** Prefers receiving reminders and project updates through mobile app notifications.
-- **Video Conferencing:** Uses platforms like Zoom or Microsoft Teams for virtual meetings with team members and stakeholders.
-
-#### Quotes and Insights
-
-- **Quotes:** “I need a tool that helps me keep track of all project details and ensures effective team collaboration.”
-- **Insights:** “Jordan needs a comprehensive platform that integrates project management, communication, and productivity tools.”
-
-#### Success Criteria
-
-- **Efficiency Gains:** Improved ability to meet project deadlines and manage resources effectively.
-- **Stress Reduction:** Personal perception of decreased stress and better work-life balance.
-- **Team Satisfaction:** Positive feedback from team members and high team morale.
-- **Project Success:** Successfully completed projects without significant issues or delays.
-
-#### How AiDo Helps
-
-- **Project Management Tools:** Provides comprehensive tools for planning, tracking, and managing projects.
-- **Collaborative Features:** Offers easy sharing and collaboration tools for team communication and coordination.
-- **Automated Reminders:** Sends automated reminders for project deadlines, meetings, and milestones.
-- **Integration Capabilities:** Seamless integration with other commonly used tools and platforms, like Microsoft Project, Slack, and CRM systems.
-- **Customization:** Customizable templates and workflows to cater to different types of projects.
-- **Real-Time Updates:** Real-time updates and syncing across all devices to ensure the latest information is always accessible.
-- **Resource Management:** Tools for tracking and managing project resources, including budgeting and expense tracking.
-
-## Comments
-
-For website:
-
-##### Team Leaders
-
-**Name:** Jordan Smith
-
-**Goal:** To efficiently manage projects and teams, ensuring productivity and successful outcomes.
-
-**Description:** Leaders and managers utilizing AiDo for project oversight, team management, and productivity optimization.
-
-**Challenges:** Balancing multiple projects, ensuring clear communication within the team, and meeting project deadlines.
-
-**How AiDo Helps:** AiDo offers project management tools, collaborative features, and productivity insights to help team leaders manage their teams effectively, track progress, and achieve project goals.
