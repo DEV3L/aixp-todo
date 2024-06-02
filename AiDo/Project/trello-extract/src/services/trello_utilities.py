@@ -25,6 +25,10 @@ def trello_list_reducer(accumulator: CategorizedLists, trello_list: TrelloList) 
         accumulator.todo.append(trello_list)
     elif trello_list.name in ["Doing"]:
         accumulator.doing.append(trello_list)
+    elif trello_list.name in ["Target User Personas"]:
+        accumulator.users.append(trello_list)
+    elif trello_list.name in ["Virtual Team"]:
+        accumulator.team.append(trello_list)
     else:
         accumulator.done.append(trello_list)
     return accumulator

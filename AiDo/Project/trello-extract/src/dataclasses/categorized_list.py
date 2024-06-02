@@ -10,3 +10,5 @@ class CategorizedLists(Generic[T]):
     todo: list[T] = field(default_factory=list)
     doing: list[T] = field(default_factory=list)
     done: list[T] = field(default_factory=list)
+    users: list[T] = field(default_factory=list)
+    team: list[T] = field(default_factory=list)

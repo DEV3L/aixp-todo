@@ -47,10 +47,9 @@ cp env.local .env
 2. Update `.env` file with your Trello API credentials:
 
 ```
-TRELLO_API_KEY=your_api_key
-TRELLO_API_SECRET=your_api_secret
-TRELLO_OAUTH_TOKEN=your_oauth_token
-TRELLO_OAUTH_TOKEN_SECRET=your_oauth_token_secret
+TRELLO_API_KEY=TRELLO_API_KEY
+TRELLO_API_TOKEN=TRELLO_API_TOKEN
+TRELLO_BOARD_NAME=AiDo
 ```
 
 ### Step 4: Run the Script
@@ -72,20 +71,32 @@ The `trello_integration.py` script will:
 ### Example Output
 
 ```
-Boards:
-- Example Board (ID: 1234567890abcdef12345678)
+# TODO
 
-Fetching details for board: Example Board
-Board Details: {'name': 'Example Board', 'description': 'This is an example Trello board.', 'url': 'https://trello.com/b/12345678/example-board'}
+## Title
 
-Lists in Example Board:
-- To Do (ID: 1234567890abcdef12345678)
-- In Progress (ID: 1234567890abcdef12345679)
-- Done (ID: 1234567890abcdef12345680)
+Title 1
 
-Cards in list To Do:
-- {'name': 'Example Card 1', 'description': 'This is an example card.', 'due_date': None, 'url': 'https://trello.com/c/12345678/example-card-1'}
-- {'name': 'Example Card 2', 'description': 'This is another example card.', 'due_date': '2024-06-01T12:00:00.000Z', 'url': 'https://trello.com/c/12345679/example-card-2'}
+## List Name
+
+Task 1
+
+## Labels
+
+- bug
+- urgent
+
+## Due Date
+
+2024-05-01 00:00:00
+
+## Description
+
+Description of task 1
+
+## Comments
+
+Comment 1
 ```
 
 ## Contributing

@@ -16,7 +16,9 @@ def test_extract_cards_info(
     assert len(categorized_lists.planning) == 2
     assert len(categorized_lists.todo) == 1
     assert len(categorized_lists.doing) == 1
-    assert len(categorized_lists.done) == 4
+    assert len(categorized_lists.done) == 2
+    assert len(categorized_lists.users) == 1
+    assert len(categorized_lists.team) == 1
 
     card_info = categorized_lists.todo[0]
     assert card_info.list_name == "Backlog"
@@ -32,7 +34,9 @@ def test_categorize_lists(trello_service: TrelloService, mock_board: Board):
     assert len(categorized.planning) == 2
     assert len(categorized.todo) == 1
     assert len(categorized.doing) == 1
-    assert len(categorized.done) == 4
+    assert len(categorized.done) == 2
+    assert len(categorized.users) == 1
+    assert len(categorized.team) == 1
     assert all("_" not in lst.name for lst in categorized.todo)
     assert all("_" not in lst.name for lst in categorized.doing)
     assert all("_" not in lst.name for lst in categorized.done)

@@ -14,6 +14,10 @@ def test_headers():
 # DOING
 
 # DONE
+
+# USERS
+
+# TEAM
 """
 
     categorized_list = CategorizedLists(
@@ -21,6 +25,8 @@ def test_headers():
         todo=[build_trello_card()],
         doing=[build_trello_card()],
         done=[build_trello_card()],
+        users=[build_trello_card()],
+        team=[build_trello_card()],
     )
 
     markdown = generate_markdown(categorized_list)

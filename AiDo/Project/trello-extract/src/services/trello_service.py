@@ -27,8 +27,10 @@ class TrelloService:
         todo = extract_card_info_from_list(categorized_lists.todo)
         doing = extract_card_info_from_list(categorized_lists.doing)
         done = extract_card_info_from_list(categorized_lists.done)
+        users = extract_card_info_from_list(categorized_lists.users)
+        team = extract_card_info_from_list(categorized_lists.team)
 
-        return CategorizedLists(planning=planning, todo=todo, doing=doing, done=done)
+        return CategorizedLists(planning=planning, todo=todo, doing=doing, done=done, users=users, team=team)
 
     def categorize_lists(self, board: Board) -> CategorizedLists[TrelloList]:
         trello_lists = self.get_lists_for_board(board)
@@ -36,7 +38,7 @@ class TrelloService:
         return reduce(
             trello_list_reducer,
             filtered_trello_lists,
-            CategorizedLists[TrelloList](planning=[], todo=[], doing=[], done=[]),
+            CategorizedLists[TrelloList](planning=[], todo=[], doing=[], done=[], users=[], team=[]),
         )
 
     def get_board_by_name(self, board_name: str) -> Board:
