@@ -15,17 +15,20 @@ def generate_markdown(categorized_lists: CategorizedLists[TrelloCard]) -> str:
 
 
 def format_category(category: str, cards: list[TrelloCard]):
-    return [f"# {category.upper()}", ""] + [line for card in cards for line in format_card(card)]
+    return [
+        f"# {category.upper()}\n\nThis is a list of cards, work items, user stories, and tasks that are in the {category} category.",
+        "",
+    ] + [line for card in cards for line in format_card(card)]
 
 
 def format_card(card: TrelloCard):
-    title_lines = ["## Title", "", card.title, ""] if card.title else []
-    list_name_lines = ["## List Name", "", card.list_name, ""] if card.list_name else []
+    title_lines = [f"## Title: {card.title}", ""] if card.title else []
+    list_name_lines = [f"## List Name: {card.list_name}", ""] if card.list_name else []
     labels_lines = ["## Labels", ""] + [f"- {label}" for label in card.labels] + [""] if card.labels else []
-    due_date_lines = ["## Due Date", "", str(card.due_date), ""] if card.due_date else []
+    done_date_lines = [f"## Done Date: {card.done_date}", ""] if card.done_date else []
     description_lines = ["## Description", "", escape_markdown(card.description), ""] if card.description else []
     comments_lines = (
-        ["## Comments", ""] + [f"{escape_markdown(comment)}\n" for comment in card.comments] if card.comments else []
+        ["### Comments", ""] + [f"{escape_markdown(comment)}\n" for comment in card.comments] if card.comments else []
     )
 
-    return title_lines + list_name_lines + labels_lines + due_date_lines + description_lines + comments_lines
+    return title_lines + list_name_lines + labels_lines + done_date_lines + description_lines + comments_lines

@@ -22,7 +22,7 @@ def trello_card():
         description="Test card description",
         labels=["Label1", "Label2"],
         comments=["Test comment"],
-        due_date="",
+        done_date=datetime(2024, 1, 1, 0, 0, 0),
     )
 
 

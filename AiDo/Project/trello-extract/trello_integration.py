@@ -16,6 +16,7 @@ def main():
     try:
         markdown_file_name = orchestration_service.write_board_markdown_to_file(settings.trello_board_name, "bin")
         logger.info(f"Markdown file written to {markdown_file_name}")
+        # logger.info(orchestration_service.write_board_json_to_file(settings.trello_board_name, "bin"))
     except RuntimeError as e:
         logger.error(e)
 

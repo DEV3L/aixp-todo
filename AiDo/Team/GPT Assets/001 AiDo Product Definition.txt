@@ -1,3 +1,5 @@
+This document outlines the envisioned future state of the AiDo product. It is not currently implemented and does not reflect our current work or completed tasks. Instead, it provides a vision of what the AiDo product aims to become.
+
 # AiDo
 
 > AiDo: Elevating task management with generative AI for personalized productivity.

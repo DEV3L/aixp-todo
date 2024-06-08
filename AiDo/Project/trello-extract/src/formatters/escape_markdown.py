@@ -4,7 +4,9 @@ def escape_markdown(text: str) -> str:
 
 def escape_line(line: str) -> str:
     if line.startswith("#"):
-        return "##" + line
+        num_hashes = len(line) - len(line.lstrip("#"))
+        num_hashes = min(num_hashes + 3, 6)
+        return "#" * num_hashes + line.lstrip("#")
 
     if line.strip() == "---":
         return "- - -"

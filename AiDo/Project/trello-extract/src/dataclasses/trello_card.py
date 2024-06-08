@@ -10,4 +10,4 @@ class TrelloCard:
     description: str
     labels: List[str]
     comments: List[str]
-    due_date: datetime | Literal[""]
+    done_date: datetime | Literal[""]

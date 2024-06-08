@@ -25,7 +25,7 @@ def test_extract_cards_info(
     assert card_info.description == "Test card description"
     assert card_info.labels == ["Label1", "Label2"]
     assert card_info.comments == ["Test comment"]
-    assert card_info.due_date == datetime(2023, 1, 1)
+    assert card_info.done_date == datetime(2023, 1, 1)
 
 
 def test_categorize_lists(trello_service: TrelloService, mock_board: Board):

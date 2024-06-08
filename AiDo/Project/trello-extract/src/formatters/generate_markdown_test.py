@@ -9,15 +9,27 @@ from src.formatters.generate_markdown import generate_markdown
 def test_headers():
     expected_markdown = """# PLANNING
 
+This is a list of cards, work items, user stories, and tasks that are in the planning category.
+
 # TODO
+
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
 
 # DOING
 
+This is a list of cards, work items, user stories, and tasks that are in the doing category.
+
 # DONE
+
+This is a list of cards, work items, user stories, and tasks that are in the done category.
 
 # USERS
 
+This is a list of cards, work items, user stories, and tasks that are in the users category.
+
 # TEAM
+
+This is a list of cards, work items, user stories, and tasks that are in the team category.
 """
 
     categorized_list = CategorizedLists(
@@ -34,40 +46,14 @@ def test_headers():
     assert markdown == expected_markdown
 
 
-def test_card_list_names():
-    expected_markdown = """# TODO
-
-## List Name
-
-Task 1
-
-## List Name
-
-Task 2
-"""
-
-    categorized_list = CategorizedLists(
-        todo=[
-            build_trello_card(list_name="Task 1"),
-            build_trello_card(list_name="Task 2"),
-        ]
-    )
-
-    markdown = generate_markdown(categorized_list)
-
-    assert markdown == expected_markdown
-
-
 def test_card_title_names():
     expected_markdown = """# TODO
 
-## Title
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
 
-Title 1
+## Title: Title 1
 
-## Title
-
-Title 2
+## Title: Title 2
 """
 
     categorized_list = CategorizedLists(
@@ -82,12 +68,34 @@ Title 2
     assert markdown == expected_markdown
 
 
+def test_card_list_names():
+    expected_markdown = """# TODO
+
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
+
+## List Name: List Name 1
+
+## List Name: List Name 2
+"""
+
+    categorized_list = CategorizedLists(
+        todo=[
+            build_trello_card(list_name="List Name 1"),
+            build_trello_card(list_name="List Name 2"),
+        ]
+    )
+
+    markdown = generate_markdown(categorized_list)
+
+    assert markdown == expected_markdown
+
+
 def test_card_labels():
     expected_markdown = """# TODO
 
-## List Name
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
 
-Task 1
+## List Name: List Name 1
 
 ## Labels
 
@@ -97,7 +105,7 @@ Task 1
 
     categorized_list = CategorizedLists(
         todo=[
-            build_trello_card(list_name="Task 1", labels=["bug", "urgent"]),
+            build_trello_card(list_name="List Name 1", labels=["bug", "urgent"]),
         ]
     )
 
@@ -106,23 +114,21 @@ Task 1
     assert markdown == expected_markdown
 
 
-def test_card_due_date():
+def test_card_done_date():
     expected_markdown = """# TODO
 
-## List Name
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
 
-Task 1
+## List Name: List Name 1
 
-## Due Date
-
-2024-05-01 00:00:00
+## Done Date: 2024-05-01 00:00:00
 """
 
     categorized_list = CategorizedLists(
         todo=[
             build_trello_card(
-                list_name="Task 1",
-                due_date=datetime(2024, 5, 1, 0, 0),
+                list_name="List Name 1",
+                done_date=datetime(2024, 5, 1, 0, 0),
             ),
         ]
     )
@@ -135,27 +141,25 @@ Task 1
 def test_card_descriptions():
     expected_markdown = """# TODO
 
-## List Name
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
 
-Task 1
+## List Name: List Name 1
 
 ## Description
 
 Description of task 1
 
-## List Name
-
-Task 2
+## List Name: List Name 2
 
 ## Description
 
-### Description of task 2
+#### Description of task 2
 """
 
     categorized_list = CategorizedLists(
         todo=[
-            build_trello_card(list_name="Task 1", description="Description of task 1"),
-            build_trello_card(list_name="Task 2", description="# Description of task 2"),
+            build_trello_card(list_name="List Name 1", description="Description of task 1"),
+            build_trello_card(list_name="List Name 2", description="# Description of task 2"),
         ]
     )
 
@@ -167,11 +171,11 @@ Task 2
 def test_card_comments():
     expected_markdown = """# TODO
 
-## List Name
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
 
-Task 1
+## List Name: List Name 1
 
-## Comments
+### Comments
 
 - - -
 
@@ -180,7 +184,7 @@ Comment 1
 
     categorized_list = CategorizedLists(
         todo=[
-            build_trello_card(list_name="Task 1", comments=["---", "Comment 1"]),
+            build_trello_card(list_name="List Name 1", comments=["---", "Comment 1"]),
         ]
     )
 
@@ -192,28 +196,24 @@ Comment 1
 def test_generate_markdown():
     expected_markdown = """# TODO
 
-## Title
+This is a list of cards, work items, user stories, and tasks that are in the todo category.
 
-Title 1
+## Title: Title 1
 
-## List Name
-
-Task 1
+## List Name: List Name 1
 
 ## Labels
 
 - bug
 - urgent
 
-## Due Date
-
-2024-05-01 00:00:00
+## Done Date: 2024-05-01 00:00:00
 
 ## Description
 
 Description of task 1
 
-## Comments
+### Comments
 
 Comment 1
 """
@@ -222,9 +222,9 @@ Comment 1
         todo=[
             build_trello_card(
                 title="Title 1",
-                list_name="Task 1",
+                list_name="List Name 1",
                 labels=["bug", "urgent"],
-                due_date=datetime(2024, 5, 1, 0, 0),
+                done_date=datetime(2024, 5, 1, 0, 0),
                 description="Description of task 1",
                 comments=["Comment 1"],
             ),
@@ -243,7 +243,7 @@ def build_trello_card(
     description="",
     labels: list[str] = [],
     comments: list[str] = [],
-    due_date: datetime | Literal[""] = "",
+    done_date: datetime | Literal[""] = "",
 ):
     return TrelloCard(
         title=title,
@@ -251,5 +251,5 @@ def build_trello_card(
         description=description,
         labels=labels,
         comments=comments,
-        due_date=due_date,
+        done_date=done_date,
     )

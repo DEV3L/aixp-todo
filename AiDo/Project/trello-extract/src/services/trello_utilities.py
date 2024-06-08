@@ -14,7 +14,7 @@ def extract_card_info(trello_list: TrelloList, card: Card) -> TrelloCard:
         description=card.description,
         labels=[label.name for label in card.labels],
         comments=[comment["data"]["text"] for comment in card.comments],
-        due_date=card.due_date,
+        done_date=card.due_date,
     )
 
 
