@@ -59,7 +59,7 @@ def test_write_board_markdown_to_file(mock_generate_markdown, tmpdir):
 
     board_name = "TestBoard"
     directory = tmpdir.mkdir("markdown_files")
-    file_path = os.path.join(directory, f"{board_name} Trello.txt")
+    file_path = os.path.join(directory, f"{board_name} Status Trello Board.txt")
 
     result_path = orchestration_service.write_board_markdown_to_file(board_name, str(directory))
 
