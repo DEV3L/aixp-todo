@@ -1,4 +1,4 @@
-name: Run Build Head of Product 
+name: Run Build Head of Product
 
 on:
   workflow_dispatch:
@@ -7,6 +7,10 @@ on:
         description: "Name of the Trello board"
         required: true
         default: "AiDo"
+      openai_api_key:
+        description: "OpenAI API key"
+        required: true
+        default: ""
 
 jobs:
   run-trello-integration:
@@ -51,7 +55,7 @@ jobs:
           path: AiDo/Project/trello-extract/bin/${{ github.event.inputs.trello_board_name }} Status Trello Board.txt
       - name: Run Build Head of Product
         env:
-          TRELLO_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ github.event.inputs.openai_api_key }}
           TRELLO_BOARD_NAME: ${{ github.event.inputs.trello_board_name }}
         run: |
           cd AiDo/Project/head-of-product
