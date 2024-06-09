@@ -1,4 +1,4 @@
-name: Run Trello Integration
+name: Run Build Head of Product with Trello Integration
 
 on:
   workflow_dispatch:
@@ -49,3 +49,11 @@ jobs:
         with:
           name: trello-markdown-text
           path: AiDo/Project/trello-extract/bin/${{ github.event.inputs.trello_board_name }} Status Trello Board.txt
+      - name: Run Build Head of Product
+        env:
+          TRELLO_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRELLO_BOARD_NAME: ${{ github.event.inputs.trello_board_name }}
+        run: |
+          cd AiDo/Project/head-of-product
+          mv "AiDo/Project/trello-extract/bin/${{ github.event.inputs.trello_board_name }} Status Trello Board.txt" ./data/Files
+          hatch run build

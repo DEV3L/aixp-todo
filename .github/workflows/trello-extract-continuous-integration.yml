@@ -28,7 +28,7 @@ jobs:
           cd AiDo/Project/head-of-product
           python -m pip install hatch
           hatch env create
-      - name: Unit tests
+      - name: Unit Head of Product tests
         run: |
           cd AiDo/Project/head-of-product
           hatch run test
