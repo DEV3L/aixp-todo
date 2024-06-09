@@ -14,12 +14,21 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-      - name: Install dependencies
+      - name: Install Trello Extract dependencies
         run: |
           cd AiDo/Project/trello-extract
           python -m pip install hatch
           hatch env create
-      - name: Unit tests
+      - name: Unit Trello Extract tests
         run: |
           cd AiDo/Project/trello-extract
+          hatch run test
+      - name: Install Head of Product dependencies
+        run: |
+          cd AiDo/Project/head-of-product
+          python -m pip install hatch
+          hatch env create
+      - name: Unit tests
+        run: |
+          cd AiDo/Project/head-of-product
           hatch run test
