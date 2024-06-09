@@ -1,3 +1,9 @@
+# Instruction Prompt
+
+Please prioritize this file marketing information and status on the public facing website for AiDo.
+
+---
+
 # Home Page
 
 **AI-Driven Productivity**
