@@ -1,7 +1,3 @@
-import sys
-
-sys.path.append("../trello-extract/src")
-
 from loguru import logger
 
 from src.assistants.assistant_service import (
@@ -16,6 +12,7 @@ from src.exporters.files.file_exporter import FileExporter
 def export_data():
     BlogsExporter().export()
     FileExporter("AiDo Product Definition.txt").export()
+    FileExporter("AiDo Status Trello Board.txt").export()
     FileExporter("AiDo Website.txt").export()
     FileExporter("Persona - Head of Product - Alex Parker.txt").export()
 
@@ -29,11 +26,11 @@ def main():
     service = AssistantService(client)
 
     logger.info("Removing existing assistant and category files")
-    # service.delete_assistant()
+    service.delete_assistant()
 
-    # assistant_id = service.get_assistant_id()
+    assistant_id = service.get_assistant_id()
 
-    # logger.info(f"Assistant ID: {assistant_id}")
+    logger.info(f"Assistant ID: {assistant_id}")
 
 
 if __name__ == "__main__":

@@ -47,3 +47,11 @@ pytest --cov --cov-report lcov
 
 Command + Shift + P => Coverage Gutters: Watch
 ```
+
+## Contributing
+
+We welcome contributions!
+
+## License
+
+This project is licensed under the Beer-Ware License - see the [LICENSE](LICENSE) file for details.
