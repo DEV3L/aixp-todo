@@ -83,6 +83,7 @@ class TestAssistantService(TestCase):
         self.mock_client.vector_stores_create.return_value = expected_vector_store_id
         self.mock_client.vector_stores_files.side_effect = [
             [MagicMock(status="failed", id="abc")],
+            lambda: Exception("Failed to create vector store"),
             [MagicMock(status="completed", id="def")],
         ]
         self.mock_client.files_get.return_value = MagicMock(filename="file_name")
