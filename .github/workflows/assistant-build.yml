@@ -1,4 +1,4 @@
-name: Run Build Head of Product
+name: Build Assistant
 
 on:
   workflow_dispatch:
@@ -13,7 +13,7 @@ on:
         default: ""
 
 jobs:
-  run-trello-integration:
+  run-trello-integration-build-assistant:
     runs-on: ubuntu-latest
 
     steps:
