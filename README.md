@@ -12,6 +12,10 @@
 - [Code Smarter, Not Harder: Unleashing AI in Agile Development](https://dev.to/dev3l/code-smarter-not-harder-unleashing-ai-in-agile-development-37jd)
 - [Bringing the Voice of the Customer to Life with AI](https://dev.to/dev3l/bringing-the-voice-of-the-customer-to-life-with-ai-a75)
 
+- [Revolutionizing Agile Ceremonies with OpenAI](https://www.dev3loper.ai/insights/revolutionizing-agile-ceremonies-with-openai)
+- [Innovating Agile User Personas with ChatGPT and DALL-E](https://www.dev3loper.ai/insights/innovating-agile-user-personas-with-chatgpt-and-dall-e)
+- [Unleashing Team Creativity: The Art of Prompts in Fostering Innovative Collaboration](https://www.dev3loper.ai/insights/unleashing-team-creativity-the-art-of-prompts-in-fostering-innovative-collaboration)
+
 ## Summary
 
 ### Short Summary
