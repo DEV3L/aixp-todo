@@ -4,17 +4,33 @@
 
 ### Articles
 
-- [AI-XP Unpacked - Integrating AI with Extreme Programming for Enhanced Agility](https://dev.to/dev3l/ai-xp-unpacked-integrating-ai-with-extreme-programming-for-enhanced-agility-44ae)
-- [AI as Your Strategic Partner in Extreme Programming](https://dev.to/dev3l/ai-as-your-strategic-partner-in-extreme-programming-24g0)
-- [AI as Your Strategic Partner - Building a Virtual Chief Strategy Officer](https://dev.to/dev3l/ai-as-your-strategic-partner-building-a-virtual-chief-strategy-officer-2i1)
-- [Leveraging AI to Supercharge Your Marketing Efforts](https://dev.to/dev3l/leveraging-ai-to-supercharge-your-marketing-efforts-3dgo)
-- [Enhancing Software Development with Generative AI: Beyond the Hype](https://dev.to/dev3l/enhancing-software-development-with-generative-ai-beyond-the-hype-bp4)
-- [Code Smarter, Not Harder: Unleashing AI in Agile Development](https://dev.to/dev3l/code-smarter-not-harder-unleashing-ai-in-agile-development-37jd)
-- [Bringing the Voice of the Customer to Life with AI](https://dev.to/dev3l/bringing-the-voice-of-the-customer-to-life-with-ai-a75)
+- [AI-XP Unpacked: Integrating AI with Extreme Programming for Enhanced Agility](https://www.dev3loper.ai/insights/ai-xp-unpacked-integrating-ai-with-extreme-programming-for-enhanced-agility)
 
+#### VISION
+
+- [From Idea to Business Plan in Less Than an Hour with APEX](https://www.dev3loper.ai/insights/from-idea-to-business-plan-in-less-than-an-hour-with-apex)
+- [AI as Your Strategic Partner - Building a Virtual Chief Strategy Officer](https://www.dev3loper.ai/insights/ai-as-your-strategic-partner-building-a-virtual-chief-strategy-officer)
+- [Leveraging AI to Supercharge Your Marketing Efforts](https://www.dev3loper.ai/insights/leveraging-ai-to-supercharge-your-marketing-efforts)
+
+#### ADAPT
+
+- [Bringing the Voice of the Customer to Life with AI](https://www.dev3loper.ai/insights/bringing-the-voice-of-the-customer-to-life-with-ai)
 - [Revolutionizing Agile Ceremonies with OpenAI](https://www.dev3loper.ai/insights/revolutionizing-agile-ceremonies-with-openai)
 - [Innovating Agile User Personas with ChatGPT and DALL-E](https://www.dev3loper.ai/insights/innovating-agile-user-personas-with-chatgpt-and-dall-e)
 - [Unleashing Team Creativity: The Art of Prompts in Fostering Innovative Collaboration](https://www.dev3loper.ai/insights/unleashing-team-creativity-the-art-of-prompts-in-fostering-innovative-collaboration)
+
+#### LEAP
+
+- [AI and the Modern Developer](https://www.dev3loper.ai/insights/ai-and-the-modern-developer)
+- [Taming the Unpredictable - How Continuous Alignment Testing Keeps LLMs in Check](https://www.dev3loper.ai/insights/taming-the-unpredictable-how-continuous-alignment-testing-keeps-llms-in-check)
+- [Intelligent Engineering with AI](https://www.dev3loper.ai/insights/intelligent-engineering-with-ai)
+- [The Dawn of a New Era in Software Development](https://www.dev3loper.ai/insights/the-dawn-of-a-new-era-in-software-development)
+- [AI as Your Strategic Partner in Extreme Programming](https://www.dev3loper.ai/insights/ai-as-your-strategic-partner-in-extreme-programming)
+- [Enhancing Software Development with Generative AI: Beyond the Hype](https://www.dev3loper.ai/insights/enhancing-software-development-with-generative-ai-beyond-the-hype)
+- [Code Smarter, Not Harder: Unleashing AI in Agile Development](https://www.dev3loper.ai/insights/code-smarter-not-harder-unleashing-ai-in-agile-development)
+- [Navigating the New Frontier: AI-Powered Software Development](https://www.dev3loper.ai/insights/navigating-the-new-frontier-ai-powered-software-development)
+
+---
 
 ## Summary
 
