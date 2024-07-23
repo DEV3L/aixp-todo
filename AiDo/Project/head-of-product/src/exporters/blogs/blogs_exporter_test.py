@@ -1,10 +1,10 @@
 from unittest.mock import Mock, mock_open, patch
 
 import pytest
+from ai_assistant_manager.env_variables import DATA_FILE_PREFIX
 
 from src.exporters.blogs.blogs_exporter import BlogsExporter
 from src.exporters.content_data import ContentData
-from src.exporters.exporter import DATA_FILE_PREFIX
 
 
 @pytest.fixture(name="exporter")

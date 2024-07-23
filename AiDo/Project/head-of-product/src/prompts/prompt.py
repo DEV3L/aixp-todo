@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from src.encoding import UTF_8
+from ai_assistant_manager.encoding import UTF_8
 
 PROMPT_PATH = "src/prompts/prompt.md"
 

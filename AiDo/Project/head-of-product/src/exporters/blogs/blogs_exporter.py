@@ -2,17 +2,15 @@ import json
 import os
 from dataclasses import asdict
 
-from loguru import logger
-
-from src.encoding import UTF_8
-from src.exporters.content_data import ContentData
-from src.exporters.exporter import (
-    BIN_DIR,
-    DATA_DIR,
-    DATA_FILE_PREFIX,
+from ai_assistant_manager.encoding import UTF_8
+from ai_assistant_manager.env_variables import BIN_DIR, DATA_DIR, DATA_FILE_PREFIX
+from ai_assistant_manager.exporters.exporter import (
     create_dir,
     does_data_exist,
 )
+from loguru import logger
+
+from src.exporters.content_data import ContentData
 
 
 class BlogsExporter:
