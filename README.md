@@ -21,6 +21,7 @@
 
 #### LEAP
 
+- [LEAP into the Gilded Rose Kata](https://www.dev3loper.ai/insights/leap-into-the-gilded-rose-kata)
 - [AI and the Modern Developer](https://www.dev3loper.ai/insights/ai-and-the-modern-developer)
 - [Taming the Unpredictable - How Continuous Alignment Testing Keeps LLMs in Check](https://www.dev3loper.ai/insights/taming-the-unpredictable-how-continuous-alignment-testing-keeps-llms-in-check)
 - [Intelligent Engineering with AI](https://www.dev3loper.ai/insights/intelligent-engineering-with-ai)
@@ -29,6 +30,35 @@
 - [Enhancing Software Development with Generative AI: Beyond the Hype](https://www.dev3loper.ai/insights/enhancing-software-development-with-generative-ai-beyond-the-hype)
 - [Code Smarter, Not Harder: Unleashing AI in Agile Development](https://www.dev3loper.ai/insights/code-smarter-not-harder-unleashing-ai-in-agile-development)
 - [Navigating the New Frontier: AI-Powered Software Development](https://www.dev3loper.ai/insights/navigating-the-new-frontier-ai-powered-software-development)
+
+### Videos
+
+#### VISION
+
+- [Rapidly Create a Product Definition with APEX | Transform Your Ideas in Under an Hour](https://youtu.be/DB-Bx424dJo)
+
+#### ADAPT
+
+- [AI Powered Product Development: From User Story to Deployment](https://youtu.be/IRt9kx48cnw)
+  - [Building a Virtual Product Owner with AI](https://youtu.be/l4SL91Yx3RM)
+  - [Ensuring AI Accuracy Continuous Alignment Testing Explained](https://youtu.be/ry-ThIYfDUg)
+  - [AI-Driven Feature Implementation & CI/CD Deployment](https://youtu.be/z8-yPsYjOa4)
+- [Bringing the Voice of the Customer to Life with AI - Customer Interview](https://youtu.be/qYKmKs1hTL4)
+
+#### LEAP
+
+- [LEAP into the Gilded Rose Kata](https://youtu.be/T2MaDTOPiEg)
+  - [LEAP - Filling in Gaps in Knowledge | Going Deeper on a Subject](https://youtu.be/Zi1hK8FFHpQ)
+  - [LEAP - Quickly Understanding a New Codebase](https://youtu.be/K-szRT7SUy0)
+  - [LEAP - Pinning Down Legacy Code with Tests](https://youtu.be/Ca1mIeolqVo)
+  - [LEAP - Refactoring to Improve Code](https://youtu.be/LtdjI2eokeI)
+  - [LEAP - Test Driven Development++ (TDD++)](https://youtu.be/kAMzesEcdZk)
+  - [LEAP - Generating Documentation](https://youtu.be/mqiV7bqArp4)
+  - [LEAP - Using Claude to Quickly Prototype a Login Page](https://youtu.be/1HPSzEzUPmo)
+- [Updating Cursor sh AI Chat Preferences to Meet Your Expectations](https://youtu.be/AnF9dZLRhzY)
+- [Python Authentication API Tests with AI Assistance](https://youtu.be/OQ2uqt-7DyY)
+- [AI Mistake With GitHub Actions - Wiping Infrastructure by Accident](https://youtu.be/7Ax8BvYlBX4)
+- [Using Screenshots With AI To Write Playwright Tests](https://youtu.be/5ft0hBAIefA)
 
 ---
 
